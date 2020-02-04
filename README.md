@@ -1,6 +1,12 @@
 # testdemo (flask running test)
 
 ## 1. Environment Setting
+### 1.0 If you get all installation without a package venv, just
+```
+virtualenv venv
+python3 app.py
+```
+
 ### 1.1 python3, pip3
 ```
 $ python3 --version
