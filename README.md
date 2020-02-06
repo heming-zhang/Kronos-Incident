@@ -37,3 +37,12 @@ $ python3 app.py
 ```
 sudo pip3 install flask_sqlalchemy
 ```
+
+## 2 Data Processing
+### 2.1 Import csv files into mysql
+```
+$ mysql -u root -p pok_origin < ./sql/pok_origin.sql
+$ mysql -u root -p pattern_origin < ./sql/patterns_origin.sql
+```
+
+### 2.2 Convert sql tables into regularized mode
