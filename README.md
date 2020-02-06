@@ -32,3 +32,8 @@ $ flask run --host=0.0.0.0
 # a simple way 
 $ python3 app.py
 ```
+
+### 1.5 Connection with MySQL through flask_sqlalchemy
+```
+sudo pip3 install flask_sqlalchemy
+```
