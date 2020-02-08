@@ -83,6 +83,7 @@ $ python3 patterns_db_reg.py
 ```
 * Above command lines will use original database 'pok_origin' 'patterns_origin' to generate two new structuralized databases 'pok' and 'patterns'.
 * Export those tables to 'pok.sql' and 'patterns.sql'
+* Change encode rules in .sql files for create table to 'utf8mb4_general_ci'
 
 ### 2.3 Use .sql sentence to generate tables in remote server (local machine / remote server)
 ```

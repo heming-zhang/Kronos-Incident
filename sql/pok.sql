@@ -29,7 +29,7 @@ CREATE TABLE `article` (
   `title` varchar(255) DEFAULT NULL,
   `filecontent` text,
   PRIMARY KEY (`autoid`)
-) ENGINE=InnoDB AUTO_INCREMENT=846 DEFAULT CHARSET=utf8mb4 COLLATE=tf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=846 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of article
@@ -893,7 +893,7 @@ CREATE TABLE `email` (
   `date` varchar(255) DEFAULT NULL,
   `subject` text,
   PRIMARY KEY (`autoid`)
-) ENGINE=InnoDB AUTO_INCREMENT=2341 DEFAULT CHARSET=utf8mb4 COLLATE=tf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2341 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of email
@@ -3250,7 +3250,7 @@ CREATE TABLE `emaildegree` (
   `emaildegree` varchar(255) DEFAULT NULL,
   `emailname` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`autoid`)
-) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=utf8mb4 COLLATE=tf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of emaildegree
@@ -3323,7 +3323,7 @@ CREATE TABLE `emailparse` (
   `emaildate` varchar(255) DEFAULT NULL,
   `emailsubject` text,
   PRIMARY KEY (`autoid`)
-) ENGINE=InnoDB AUTO_INCREMENT=9064 DEFAULT CHARSET=utf8mb4 COLLATE=tf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9064 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- ----------------------------
 -- Records of emailparse
