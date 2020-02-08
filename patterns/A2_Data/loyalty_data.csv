@@ -1,0 +1,1394 @@
+AutoID,timestamp,location,price,FirstName,LastName
+1,1/6/14,Brew've Been Served,4.17,Cornelia,Lais
+2,1/6/14,Brew've Been Served,9.6,Mat,Bramar
+3,1/6/14,Hallowed Grounds,16.53,Emile,Arpa
+4,1/6/14,Coffee Shack,11.51,Varro,Awelon
+5,1/6/14,Hallowed Grounds,12.93,Rachel,Pantanal
+6,1/6/14,Brew've Been Served,4.27,Ruscella,Mies Haber
+7,1/6/14,Brew've Been Served,11.2,Linda,Lagos
+8,1/6/14,Brew've Been Served,15.39,Dante,Coginian
+9,1/6/14,Abila Zacharo,26.93,Carla,Forluniau
+10,1/6/14,Hippokampos,34.03,Anda,Ribera
+11,1/6/14,Kalami Kafenion,8.64,Ruscella,Mies Haber
+12,1/6/14,Katerina’s Café,33.54,Linda,Lagos
+13,1/6/14,Hippokampos,36.54,Rachel,Pantanal
+14,1/6/14,Ouzeri Elian,20.74,Cornelia,Lais
+15,1/6/14,Kalami Kafenion,13.08,Varro,Awelon
+16,1/6/14,Hippokampos,38.25,Dante,Coginian
+17,1/6/14,Hippokampos,30.88,Mat,Bramar
+18,1/6/14,Kalami Kafenion,27.4,Emile,Arpa
+19,1/6/14,Katerina’s Café,38.65,Linda,Lagos
+20,1/6/14,Katerina’s Café,26.46,Emile,Arpa
+21,1/6/14,Frydos Autosupply n' More,80.85,Dante,Coginian
+22,1/6/14,Frydos Autosupply n' More,175.87,Cornelia,Lais
+23,1/6/14,Katerina’s Café,28,Anda,Ribera
+24,1/6/14,Hippokampos,24.41,Varro,Awelon
+25,1/6/14,Frydos Autosupply n' More,89.3,Ruscella,Mies Haber
+26,1/6/14,Katerina’s Café,26.51,Mat,Bramar
+27,1/7/14,Brew've Been Served,12.74,Cornelia,Lais
+28,1/7/14,Hallowed Grounds,8.91,Emile,Arpa
+29,1/7/14,Coffee Shack,16.63,Varro,Awelon
+30,1/7/14,Brew've Been Served,4.39,Ruscella,Mies Haber
+31,1/7/14,Brew've Been Served,11.91,Mat,Bramar
+32,1/7/14,Hallowed Grounds,8.42,Rachel,Pantanal
+33,1/7/14,Coffee Cameleon,12.44,Carla,Forluniau
+34,1/7/14,Brew've Been Served,17.4,Dante,Coginian
+35,1/7/14,Hallowed Grounds,10.33,Anda,Ribera
+36,1/7/14,Brew've Been Served,15.66,Linda,Lagos
+37,1/7/14,Kalami Kafenion,11.64,Ruscella,Mies Haber
+38,1/7/14,Ouzeri Elian,28.37,Mat,Bramar
+39,1/7/14,Ouzeri Elian,17.71,Cornelia,Lais
+40,1/7/14,Abila Zacharo,32.4,Carla,Forluniau
+41,1/7/14,Gelatogalore,36.5,Rachel,Pantanal
+42,1/7/14,Ouzeri Elian,21.85,Linda,Lagos
+43,1/7/14,Katerina’s Café,37.44,Dante,Coginian
+44,1/7/14,Gelatogalore,15.4,Anda,Ribera
+45,1/7/14,Hippokampos,37.57,Emile,Arpa
+46,1/7/14,Albert's Fine Clothing,78.91,Varro,Awelon
+47,1/7/14,Katerina’s Café,31.6,Linda,Lagos
+48,1/7/14,Katerina’s Café,25.02,Dante,Coginian
+49,1/7/14,Guy's Gyros,23.12,Cornelia,Lais
+50,1/7/14,Katerina’s Café,25.54,Anda,Ribera
+51,1/7/14,Ouzeri Elian,20.53,Rachel,Pantanal
+52,1/8/14,Hallowed Grounds,5.85,Emile,Arpa
+53,1/8/14,Brew've Been Served,3.09,Mat,Bramar
+54,1/8/14,Hallowed Grounds,3.9,Rachel,Pantanal
+55,1/8/14,Coffee Shack,13.13,Varro,Awelon
+56,1/8/14,Brew've Been Served,14.88,Cornelia,Lais
+57,1/8/14,Brew've Been Served,8.4,Ruscella,Mies Haber
+58,1/8/14,Brew've Been Served,3.92,Dante,Coginian
+59,1/8/14,Hallowed Grounds,11.63,Anda,Ribera
+60,1/8/14,Brew've Been Served,11.48,Linda,Lagos
+61,1/8/14,Coffee Cameleon,16.17,Carla,Forluniau
+62,1/8/14,Abila Zacharo,22.13,Ruscella,Mies Haber
+63,1/8/14,Gelatogalore,32.79,Linda,Lagos
+64,1/8/14,Kalami Kafenion,18.18,Anda,Ribera
+65,1/8/14,Kalami Kafenion,22.49,Dante,Coginian
+66,1/8/14,Ouzeri Elian,24.92,Cornelia,Lais
+67,1/8/14,Abila Zacharo,28.25,Rachel,Pantanal
+68,1/8/14,Gelatogalore,22.27,Carla,Forluniau
+69,1/8/14,Kalami Kafenion,34.98,Varro,Awelon
+70,1/8/14,Gelatogalore,39.94,Mat,Bramar
+71,1/8/14,Kalami Kafenion,31.43,Emile,Arpa
+72,1/8/14,Katerina’s Café,34.25,Ruscella,Mies Haber
+73,1/8/14,Katerina’s Café,13.83,Linda,Lagos
+74,1/8/14,Frydos Autosupply n' More,214.07,Carla,Forluniau
+75,1/8/14,Frydos Autosupply n' More,268.89,Anda,Ribera
+76,1/8/14,Hippokampos,16.75,Varro,Awelon
+77,1/8/14,Katerina’s Café,16.93,Dante,Coginian
+78,1/9/14,Hallowed Grounds,15.24,Emile,Arpa
+79,1/9/14,Coffee Shack,5.01,Varro,Awelon
+80,1/9/14,Brew've Been Served,18.25,Dante,Coginian
+81,1/9/14,Hallowed Grounds,16.72,Anda,Ribera
+82,1/9/14,Coffee Cameleon,4.88,Carla,Forluniau
+83,1/9/14,Hallowed Grounds,15.33,Rachel,Pantanal
+84,1/9/14,Gelatogalore,19.2,Ruscella,Mies Haber
+85,1/9/14,Hippokampos,27.47,Carla,Forluniau
+86,1/9/14,Gelatogalore,23.23,Linda,Lagos
+87,1/9/14,Hippokampos,19.22,Cornelia,Lais
+88,1/9/14,Gelatogalore,24.68,Rachel,Pantanal
+89,1/9/14,Kalami Kafenion,19.84,Mat,Bramar
+90,1/9/14,Kalami Kafenion,10.94,Emile,Arpa
+91,1/9/14,Kalami Kafenion,35.99,Anda,Ribera
+92,1/9/14,Guy's Gyros,27.69,Dante,Coginian
+93,1/9/14,Gelatogalore,36.75,Varro,Awelon
+94,1/9/14,Katerina’s Café,35.92,Emile,Arpa
+95,1/9/14,Katerina’s Café,26.6,Mat,Bramar
+96,1/9/14,Katerina’s Café,30.97,Anda,Ribera
+97,1/9/14,Katerina’s Café,29.82,Dante,Coginian
+98,1/9/14,Albert's Fine Clothing,224.52,Varro,Awelon
+99,1/9/14,Katerina’s Café,13.78,Ruscella,Mies Haber
+100,1/9/14,Guy's Gyros,8.23,Cornelia,Lais
+101,1/9/14,Shoppers' Delight,258.43,Rachel,Pantanal
+102,1/10/14,Hallowed Grounds,16.75,Emile,Arpa
+103,1/10/14,Brew've Been Served,4.88,Mat,Bramar
+104,1/10/14,Hallowed Grounds,17.63,Rachel,Pantanal
+105,1/10/14,Coffee Cameleon,9.69,Carla,Forluniau
+106,1/10/14,Brew've Been Served,5.91,Cornelia,Lais
+107,1/10/14,Hallowed Grounds,9.34,Anda,Ribera
+108,1/10/14,Brew've Been Served,14.36,Linda,Lagos
+109,1/10/14,Katerina’s Café,21.22,Carla,Forluniau
+110,1/10/14,Abila Zacharo,31.34,Rachel,Pantanal
+111,1/10/14,Kalami Kafenion,27.48,Ruscella,Mies Haber
+112,1/10/14,Guy's Gyros,38.15,Linda,Lagos
+113,1/10/14,Ouzeri Elian,24.74,Cornelia,Lais
+114,1/10/14,Guy's Gyros,16.34,Emile,Arpa
+115,1/10/14,Abila Zacharo,9.32,Anda,Ribera
+116,1/10/14,Gelatogalore,32.19,Dante,Coginian
+117,1/10/14,Hippokampos,19.88,Varro,Awelon
+118,1/10/14,Frydos Autosupply n' More,43.65,Dante,Coginian
+119,1/10/14,Katerina’s Café,8.14,Linda,Lagos
+120,1/10/14,Katerina’s Café,21.28,Ruscella,Mies Haber
+121,1/10/14,Guy's Gyros,25.81,Cornelia,Lais
+122,1/11/14,Katerina’s Café,45.21,Carla,Forluniau
+123,1/11/14,Hippokampos,22.23,Anda,Ribera
+124,1/11/14,Kalami Kafenion,35.66,Varro,Awelon
+125,1/11/14,Shoppers' Delight,238.52,Carla,Forluniau
+126,1/11/14,General Grocer,78.02,Emile,Arpa
+127,1/11/14,Katerina’s Café,20.71,Anda,Ribera
+128,1/11/14,Guy's Gyros,36.2,Cornelia,Lais
+129,1/11/14,Katerina’s Café,25.76,Mat,Bramar
+130,1/11/14,Katerina’s Café,52.45,Dante,Coginian
+131,1/11/14,Frydos Autosupply n' More,236.25,Emile,Arpa
+132,1/11/14,Hippokampos,69.8,Varro,Awelon
+133,1/11/14,Katerina’s Café,94.68,Carla,Forluniau
+134,1/12/14,Ouzeri Elian,98.45,Ruscella,Mies Haber
+135,1/12/14,Hippokampos,29.2,Varro,Awelon
+136,1/12/14,Guy's Gyros,30.47,Emile,Arpa
+137,1/12/14,Kronos Mart,147.3,Ruscella,Mies Haber
+138,1/12/14,General Grocer,159.3,Varro,Awelon
+139,1/12/14,Katerina’s Café,40.94,Ruscella,Mies Haber
+140,1/12/14,Frydos Autosupply n' More,88.93,Cornelia,Lais
+141,1/12/14,Katerina’s Café,39.3,Emile,Arpa
+142,1/12/14,Katerina’s Café,16.34,Linda,Lagos
+143,1/12/14,Katerina’s Café,40.25,Mat,Bramar
+144,1/12/14,Frydos Autosupply n' More,161.96,Dante,Coginian
+145,1/13/14,Brew've Been Served,9.53,Mat,Bramar
+146,1/13/14,Hallowed Grounds,6.32,Anda,Ribera
+147,1/13/14,Brew've Been Served,13.37,Linda,Lagos
+148,1/13/14,Coffee Cameleon,17.49,Carla,Forluniau
+149,1/13/14,Coffee Shack,4.09,Varro,Awelon
+150,1/13/14,Hallowed Grounds,15.96,Rachel,Pantanal
+151,1/13/14,Brew've Been Served,19.89,Dante,Coginian
+152,1/13/14,Katerina’s Café,38.98,Carla,Forluniau
+153,1/13/14,Hippokampos,14.04,Ruscella,Mies Haber
+154,1/13/14,Guy's Gyros,21.03,Linda,Lagos
+155,1/13/14,Kalami Kafenion,20.33,Cornelia,Lais
+156,1/13/14,Gelatogalore,36.24,Dante,Coginian
+157,1/13/14,Guy's Gyros,38.07,Varro,Awelon
+158,1/13/14,Gelatogalore,37.17,Rachel,Pantanal
+159,1/13/14,Hippokampos,26.96,Mat,Bramar
+160,1/13/14,Guy's Gyros,36.87,Emile,Arpa
+161,1/13/14,Frydos Autosupply n' More,188.57,Emile,Arpa
+162,1/13/14,Frydos Autosupply n' More,64.6,Linda,Lagos
+163,1/13/14,Ouzeri Elian,21.83,Rachel,Pantanal
+164,1/13/14,Katerina’s Café,33.57,Ruscella,Mies Haber
+165,1/13/14,Guy's Gyros,19.77,Cornelia,Lais
+166,1/13/14,Hippokampos,32.29,Varro,Awelon
+167,1/13/14,Frydos Autosupply n' More,202.05,Carla,Forluniau
+168,1/14/14,Brew've Been Served,14.67,Cornelia,Lais
+169,1/14/14,Hallowed Grounds,16.67,Emile,Arpa
+170,1/14/14,Brew've Been Served,14.04,Mat,Bramar
+171,1/14/14,Brew've Been Served,9.53,Dante,Coginian
+172,1/14/14,Coffee Cameleon,11.67,Carla,Forluniau
+173,1/14/14,Hallowed Grounds,10.65,Rachel,Pantanal
+174,1/14/14,Brew've Been Served,16.39,Ruscella,Mies Haber
+175,1/14/14,Coffee Shack,3.63,Varro,Awelon
+176,1/14/14,Hallowed Grounds,6.16,Anda,Ribera
+177,1/14/14,Brew've Been Served,11.53,Linda,Lagos
+178,1/14/14,Abila Zacharo,31.09,Linda,Lagos
+179,1/14/14,Kalami Kafenion,33.13,Ruscella,Mies Haber
+180,1/14/14,Katerina’s Café,11.26,Carla,Forluniau
+181,1/14/14,Katerina’s Café,31.69,Anda,Ribera
+182,1/14/14,Ouzeri Elian,33.67,Rachel,Pantanal
+183,1/14/14,Kalami Kafenion,27.65,Mat,Bramar
+184,1/14/14,Gelatogalore,35.97,Cornelia,Lais
+185,1/14/14,Ouzeri Elian,19.7,Varro,Awelon
+186,1/14/14,Gelatogalore,22.03,Emile,Arpa
+187,1/14/14,Hippokampos,16.73,Dante,Coginian
+188,1/14/14,Guy's Gyros,35.12,Cornelia,Lais
+189,1/14/14,Katerina’s Café,31.94,Ruscella,Mies Haber
+190,1/14/14,Katerina’s Café,26.61,Dante,Coginian
+191,1/14/14,Ouzeri Elian,20.95,Rachel,Pantanal
+192,1/14/14,Katerina’s Café,25.4,Linda,Lagos
+193,1/14/14,Katerina’s Café,28.05,Anda,Ribera
+194,1/14/14,Frydos Autosupply n' More,49.21,Mat,Bramar
+195,1/15/14,Hallowed Grounds,18.69,Anda,Ribera
+196,1/15/14,Brew've Been Served,3.14,Mat,Bramar
+197,1/15/14,Brew've Been Served,8.42,Cornelia,Lais
+198,1/15/14,Brew've Been Served,5.75,Linda,Lagos
+199,1/15/14,Coffee Shack,18.17,Varro,Awelon
+200,1/15/14,Coffee Cameleon,16.31,Carla,Forluniau
+201,1/15/14,Hallowed Grounds,14.39,Rachel,Pantanal
+202,1/15/14,Brew've Been Served,3.47,Dante,Coginian
+203,1/15/14,Katerina’s Café,28.56,Carla,Forluniau
+204,1/15/14,Kalami Kafenion,38.5,Ruscella,Mies Haber
+205,1/15/14,Ouzeri Elian,25.7,Cornelia,Lais
+206,1/15/14,Kalami Kafenion,37.15,Linda,Lagos
+207,1/15/14,Guy's Gyros,12.19,Anda,Ribera
+208,1/15/14,Gelatogalore,24.96,Varro,Awelon
+209,1/15/14,Ouzeri Elian,26.61,Emile,Arpa
+210,1/15/14,Guy's Gyros,16.58,Dante,Coginian
+211,1/15/14,Gelatogalore,22.36,Rachel,Pantanal
+212,1/15/14,Abila Zacharo,26.82,Mat,Bramar
+213,1/15/14,Katerina’s Café,36.8,Anda,Ribera
+214,1/15/14,Guy's Gyros,24.91,Cornelia,Lais
+215,1/15/14,Katerina’s Café,38.81,Ruscella,Mies Haber
+216,1/15/14,Katerina’s Café,29.33,Linda,Lagos
+217,1/15/14,Katerina’s Café,29.66,Carla,Forluniau
+218,1/15/14,Katerina’s Café,21.61,Dante,Coginian
+219,1/15/14,Albert's Fine Clothing,228.15,Varro,Awelon
+220,1/15/14,Frydos Autosupply n' More,276.88,Mat,Bramar
+221,1/15/14,Ouzeri Elian,8.57,Rachel,Pantanal
+222,1/16/14,Brew've Been Served,5.05,Cornelia,Lais
+223,1/16/14,Hallowed Grounds,17.92,Emile,Arpa
+224,1/16/14,Coffee Shack,10.48,Varro,Awelon
+225,1/16/14,Brew've Been Served,3.84,Mat,Bramar
+226,1/16/14,Coffee Cameleon,3.14,Carla,Forluniau
+227,1/16/14,Hallowed Grounds,18.23,Anda,Ribera
+228,1/16/14,Hallowed Grounds,4.6,Rachel,Pantanal
+229,1/16/14,Brew've Been Served,11.21,Linda,Lagos
+230,1/16/14,Katerina’s Café,39.74,Ruscella,Mies Haber
+231,1/16/14,Hippokampos,13.05,Anda,Ribera
+232,1/16/14,Abila Zacharo,24.38,Mat,Bramar
+233,1/16/14,Katerina’s Café,38.32,Cornelia,Lais
+234,1/16/14,Kalami Kafenion,9.27,Dante,Coginian
+235,1/16/14,Ouzeri Elian,8.52,Carla,Forluniau
+236,1/16/14,Ouzeri Elian,8.47,Varro,Awelon
+237,1/16/14,Ouzeri Elian,31.21,Rachel,Pantanal
+238,1/16/14,Guy's Gyros,36.48,Emile,Arpa
+239,1/16/14,Octavio's Office Supplies,131.01,Cornelia,Lais
+240,1/16/14,Katerina’s Café,13.68,Linda,Lagos
+241,1/16/14,Katerina’s Café,29.3,Ruscella,Mies Haber
+242,1/16/14,Albert's Fine Clothing,283.38,Varro,Awelon
+243,1/16/14,Katerina’s Café,18.79,Emile,Arpa
+244,1/16/14,Ouzeri Elian,22.65,Rachel,Pantanal
+245,1/16/14,Katerina’s Café,35.43,Carla,Forluniau
+246,1/16/14,Katerina’s Café,30.56,Dante,Coginian
+247,1/16/14,Frydos Autosupply n' More,130.01,Mat,Bramar
+248,1/17/14,Brew've Been Served,11.69,Cornelia,Lais
+249,1/17/14,Brew've Been Served,8.07,Mat,Bramar
+250,1/17/14,Coffee Shack,19.16,Varro,Awelon
+251,1/17/14,Hallowed Grounds,5.52,Anda,Ribera
+252,1/17/14,Coffee Cameleon,7.49,Carla,Forluniau
+253,1/17/14,Brew've Been Served,18.15,Ruscella,Mies Haber
+254,1/17/14,Brew've Been Served,14.58,Linda,Lagos
+255,1/17/14,Hippokampos,38.21,Carla,Forluniau
+256,1/17/14,Gelatogalore,18.1,Rachel,Pantanal
+257,1/17/14,Hippokampos,23.54,Anda,Ribera
+258,1/17/14,Kalami Kafenion,24.21,Linda,Lagos
+259,1/17/14,Guy's Gyros,15.12,Dante,Coginian
+260,1/17/14,Guy's Gyros,21.1,Varro,Awelon
+261,1/17/14,Abila Zacharo,11.95,Cornelia,Lais
+262,1/17/14,Katerina’s Café,30.72,Mat,Bramar
+263,1/17/14,Ouzeri Elian,26.1,Emile,Arpa
+264,1/17/14,Katerina’s Café,21.16,Carla,Forluniau
+265,1/17/14,Hippokampos,19.76,Varro,Awelon
+266,1/17/14,Frydos Autosupply n' More,124.52,Mat,Bramar
+267,1/17/14,Katerina’s Café,14.93,Emile,Arpa
+268,1/17/14,Katerina’s Café,36.12,Dante,Coginian
+269,1/17/14,Ouzeri Elian,26.4,Rachel,Pantanal
+270,1/17/14,Katerina’s Café,33.73,Ruscella,Mies Haber
+271,1/17/14,Frydos Autosupply n' More,67.29,Cornelia,Lais
+272,1/18/14,Katerina’s Café,34.54,Anda,Ribera
+273,1/18/14,Kalami Kafenion,30.12,Cornelia,Lais
+274,1/18/14,Kalami Kafenion,42.73,Dante,Coginian
+275,1/18/14,Gelatogalore,24.38,Rachel,Pantanal
+276,1/18/14,Katerina’s Café,37.26,Linda,Lagos
+277,1/18/14,Frydos Autosupply n' More,103.41,Cornelia,Lais
+278,1/18/14,Albert's Fine Clothing,189.52,Anda,Ribera
+279,1/18/14,Frydos Autosupply n' More,234.53,Ruscella,Mies Haber
+280,1/18/14,Guy's Gyros,28.07,Cornelia,Lais
+281,1/18/14,Ouzeri Elian,14.9,Rachel,Pantanal
+282,1/18/14,Katerina’s Café,32.68,Carla,Forluniau
+283,1/18/14,Katerina’s Café,45.88,Linda,Lagos
+284,1/18/14,Hippokampos,55.03,Varro,Awelon
+285,1/6/14,Albert's Fine Clothing,276.9,Lucas,Alcazar
+286,1/6/14,Hallowed Grounds,8.05,Lucas,Alcazar
+287,1/6/14,Bean There Done That,10.28,Lars,Azada
+288,1/6/14,Guy's Gyros,15.44,Lars,Azada
+289,1/6/14,Hippokampos,21.33,Lars,Azada
+290,1/6/14,Bean There Done That,16.09,Felix,Balas
+291,1/6/14,Guy's Gyros,30.82,Felix,Balas
+292,1/6/14,Abila Zacharo,30.08,Ingrid,Barranco
+293,1/6/14,Brewed Awakenings,5.72,Ingrid,Barranco
+294,1/6/14,Hippokampos,17.27,Ingrid,Barranco
+295,1/6/14,Jack's Magical Beans,11.03,Isak,Baza
+296,1/6/14,Katerina’s Café,18.56,Isak,Baza
+297,1/6/14,Coffee Cameleon,8.73,Linnea,Bergen
+298,1/6/14,Gelatogalore,12.74,Linnea,Bergen
+299,1/6/14,Katerina’s Café,23.63,Linnea,Bergen
+300,1/6/14,Brew've Been Served,18.24,Loreto,Bodrogi
+301,1/6/14,Katerina’s Café,39.41,Loreto,Bodrogi
+302,1/6/14,Brewed Awakenings,16.89,Isande,Borrasca
+303,1/6/14,Ouzeri Elian,38.9,Isande,Borrasca
+304,1/6/14,Gelatogalore,22.64,Nils,Calixto
+305,1/6/14,Bean There Done That,8.54,Axel,Calzas
+306,1/6/14,Hippokampos,8.64,Axel,Calzas
+307,1/6/14,Hippokampos,26.8,Axel,Calzas
+308,1/6/14,Brewed Awakenings,4.35,Ada,Campo-Corrente
+309,1/6/14,Hippokampos,20.61,Ada,Campo-Corrente
+310,1/6/14,Bean There Done That,5.24,Gustav,Cazar
+311,1/6/14,Hippokampos,35.34,Gustav,Cazar
+312,1/6/14,Abila Zacharo,18.11,Hideki,Cocinaro
+313,1/6/14,Guy's Gyros,15.29,Hideki,Cocinaro
+314,1/6/14,Hallowed Grounds,12.22,Hideki,Cocinaro
+315,1/6/14,Hallowed Grounds,10.07,Lidelse,Dedos
+316,1/6/14,Katerina’s Café,13.59,Lidelse,Dedos
+317,1/6/14,Katerina’s Café,12.32,Lidelse,Dedos
+318,1/6/14,Brew've Been Served,8.88,Inga,Ferro
+319,1/6/14,Gelatogalore,23.41,Inga,Ferro
+320,1/6/14,Guy's Gyros,28.94,Inga,Ferro
+321,1/6/14,Brew've Been Served,4.24,Sven,Flecha
+322,1/6/14,Guy's Gyros,16.92,Sven,Flecha
+323,1/6/14,Guy's Gyros,39.29,Sven,Flecha
+324,1/6/14,Hallowed Grounds,16.72,Birgitta,Frente
+325,1/6/14,Katerina’s Café,32.64,Birgitta,Frente
+326,1/6/14,Bean There Done That,4.27,Vira,Frente
+327,1/6/14,Hippokampos,25.5,Vira,Frente
+328,1/6/14,Ouzeri Elian,20.4,Vira,Frente
+329,1/6/14,Brew've Been Served,8.33,Stenig,Fusil
+330,1/6/14,Guy's Gyros,37.82,Stenig,Fusil
+331,1/6/14,Ouzeri Elian,20.56,Stenig,Fusil
+332,1/6/14,Carlyle Chemical Inc.,3959.66,Albina,Hafon
+333,1/6/14,Abila Airport,4540.08,Albina,Hafon
+334,1/6/14,Abila Airport,777.06,Albina,Hafon
+335,1/6/14,Kronos Pipe and Irrigation,242.21,Albina,Hafon
+336,1/6/14,Maximum Iron and Steel,2859.51,Albina,Hafon
+337,1/6/14,Ouzeri Elian,16.84,Albina,Hafon
+338,1/6/14,Brew've Been Served,14.97,Kanon,Herrero
+339,1/6/14,Brew've Been Served,3.67,Varja,Lagos
+340,1/6/14,Guy's Gyros,22.57,Varja,Lagos
+341,1/6/14,Kalami Kafenion,30.1,Varja,Lagos
+342,1/6/14,U-Pump,59.51,Varja,Lagos
+343,1/6/14,Abila Airport,612.47,Henk,Mies
+344,1/6/14,Albert's Fine Clothing,121.76,Minke,Mies
+345,1/6/14,Brew've Been Served,15.58,Minke,Mies
+346,1/6/14,Kalami Kafenion,22.31,Minke,Mies
+347,1/6/14,Nationwide Refinery,761.64,Cecilia,Morluniau
+348,1/6/14,Stewart and Sons Fabrication,2144.62,Cecilia,Morluniau
+349,1/6/14,Coffee Cameleon,11.86,Adra,Nubarron
+350,1/6/14,Frydos Autosupply n' More,197.32,Adra,Nubarron
+351,1/6/14,Frydos Autosupply n' More,274.98,Marin,Onda
+352,1/6/14,Guy's Gyros,11.22,Marin,Onda
+353,1/6/14,Abila Zacharo,50.14,Elsa,Orilla
+354,1/6/14,Frydos Autosupply n' More,253.87,Elsa,Orilla
+355,1/6/14,Jack's Magical Beans,18.59,Elsa,Orilla
+356,1/6/14,Gelatogalore,36.33,Kare,Orilla
+357,1/6/14,Hallowed Grounds,10.66,Kare,Orilla
+358,1/6/14,Katerina’s Café,26.1,Kare,Orilla
+359,1/6/14,Abila Zacharo,23.15,Hennie,Osvaldo
+360,1/6/14,Brew've Been Served,12.83,Hennie,Osvaldo
+361,1/6/14,Katerina’s Café,17.92,Hennie,Osvaldo
+362,1/6/14,Coffee Cameleon,8.39,Bertrand,Ovan
+363,1/6/14,Katerina’s Café,15.52,Bertrand,Ovan
+364,1/6/14,Ouzeri Elian,30.87,Bertrand,Ovan
+365,1/6/14,Brew've Been Served,5.66,Felix,Resumir
+366,1/6/14,Guy's Gyros,11.94,Felix,Resumir
+367,1/6/14,Katerina’s Café,19.65,Felix,Resumir
+368,1/6/14,Jack's Magical Beans,7.84,Orhan,Strum
+369,1/6/14,Brew've Been Served,16.9,Brand,Tempestad
+370,1/6/14,Ouzeri Elian,34.71,Brand,Tempestad
+371,1/6/14,Brew've Been Served,11.34,Edvard,Vann
+372,1/6/14,Hippokampos,13.26,Edvard,Vann
+373,1/6/14,Abila Zacharo,12.05,Isia,Vann
+374,1/6/14,Brew've Been Served,10.68,Isia,Vann
+375,1/6/14,Shoppers' Delight,293.67,Isia,Vann
+376,1/6/14,Guy's Gyros,19.67,Willem,Vasco-Pais
+377,1/6/14,Jack's Magical Beans,18.1,Willem,Vasco-Pais
+378,1/7/14,Gelatogalore,21.52,Lucas,Alcazar
+379,1/7/14,Hallowed Grounds,4.44,Lucas,Alcazar
+380,1/7/14,Ouzeri Elian,25.27,Lucas,Alcazar
+381,1/7/14,Abila Zacharo,13.52,Lars,Azada
+382,1/7/14,Bean There Done That,11.25,Lars,Azada
+383,1/7/14,Hippokampos,11.56,Lars,Azada
+384,1/7/14,Guy's Gyros,10.11,Felix,Balas
+385,1/7/14,Abila Zacharo,12.72,Ingrid,Barranco
+386,1/7/14,Hippokampos,15.85,Ingrid,Barranco
+387,1/7/14,Abila Zacharo,22.25,Isak,Baza
+388,1/7/14,Jack's Magical Beans,3.68,Isak,Baza
+389,1/7/14,Coffee Cameleon,7.66,Linnea,Bergen
+390,1/7/14,Gelatogalore,34.04,Linnea,Bergen
+391,1/7/14,Katerina’s Café,19.49,Linnea,Bergen
+392,1/7/14,Brewed Awakenings,4.84,Loreto,Bodrogi
+393,1/7/14,Guy's Gyros,22.33,Loreto,Bodrogi
+394,1/7/14,Hippokampos,31.69,Loreto,Bodrogi
+395,1/7/14,Brewed Awakenings,11.59,Isande,Borrasca
+396,1/7/14,Guy's Gyros,34.09,Isande,Borrasca
+397,1/7/14,Hippokampos,21.2,Isande,Borrasca
+398,1/7/14,Hallowed Grounds,14.05,Nils,Calixto
+399,1/7/14,Katerina’s Café,22.27,Nils,Calixto
+400,1/7/14,Katerina’s Café,14.75,Nils,Calixto
+401,1/7/14,Bean There Done That,13.89,Axel,Calzas
+402,1/7/14,Hippokampos,20.17,Axel,Calzas
+403,1/7/14,Kalami Kafenion,22.83,Axel,Calzas
+404,1/7/14,Brewed Awakenings,6.72,Ada,Campo-Corrente
+405,1/7/14,Gelatogalore,35.06,Ada,Campo-Corrente
+406,1/7/14,Hippokampos,22.18,Ada,Campo-Corrente
+407,1/7/14,Bean There Done That,8.03,Gustav,Cazar
+408,1/7/14,Hippokampos,10.19,Gustav,Cazar
+409,1/7/14,Hallowed Grounds,18.97,Hideki,Cocinaro
+410,1/7/14,Kalami Kafenion,22.14,Hideki,Cocinaro
+411,1/7/14,Gelatogalore,31.77,Lidelse,Dedos
+412,1/7/14,Abila Zacharo,25.9,Inga,Ferro
+413,1/7/14,Guy's Gyros,14.87,Inga,Ferro
+414,1/7/14,Brew've Been Served,5.08,Sven,Flecha
+415,1/7/14,Guy's Gyros,22.25,Sven,Flecha
+416,1/7/14,Kalami Kafenion,25.9,Sven,Flecha
+417,1/7/14,Guy's Gyros,12.57,Birgitta,Frente
+418,1/7/14,Hallowed Grounds,9.92,Birgitta,Frente
+419,1/7/14,Katerina’s Café,17.26,Birgitta,Frente
+420,1/7/14,Albert's Fine Clothing,228.36,Vira,Frente
+421,1/7/14,Bean There Done That,6.25,Vira,Frente
+422,1/7/14,Ouzeri Elian,24.84,Vira,Frente
+423,1/7/14,Guy's Gyros,11.31,Stenig,Fusil
+424,1/7/14,Abila Airport,3840.37,Benito,Hawelon
+425,1/7/14,Stewart and Sons Fabrication,1200.9,Benito,Hawelon
+426,1/7/14,Brew've Been Served,11.92,Kanon,Herrero
+427,1/7/14,Brew've Been Served,9.06,Varja,Lagos
+428,1/7/14,Guy's Gyros,31.23,Varja,Lagos
+429,1/7/14,Katerina’s Café,31.41,Varja,Lagos
+430,1/7/14,Abila Airport,124.89,Henk,Mies
+431,1/7/14,Abila Airport,3411.29,Henk,Mies
+432,1/7/14,Brew've Been Served,3,Minke,Mies
+433,1/7/14,Katerina’s Café,10.9,Minke,Mies
+434,1/7/14,Carlyle Chemical Inc.,3827.2,Valeria,Morlun
+435,1/7/14,Katerina’s Café,19.07,Valeria,Morlun
+436,1/7/14,Nationwide Refinery,1562.66,Valeria,Morlun
+437,1/7/14,Nationwide Refinery,1347.36,Cecilia,Morluniau
+438,1/7/14,Stewart and Sons Fabrication,1783.33,Cecilia,Morluniau
+439,1/7/14,Kronos Pipe and Irrigation,3920.82,Irene,Nant
+440,1/7/14,Maximum Iron and Steel,3207.31,Irene,Nant
+441,1/7/14,Coffee Cameleon,11.55,Adra,Nubarron
+442,1/7/14,Katerina’s Café,10.07,Adra,Nubarron
+443,1/7/14,Ouzeri Elian,29.1,Adra,Nubarron
+444,1/7/14,Hallowed Grounds,7.88,Marin,Onda
+445,1/7/14,Katerina’s Café,18.35,Marin,Onda
+446,1/7/14,Jack's Magical Beans,18.77,Elsa,Orilla
+447,1/7/14,Kalami Kafenion,45.05,Elsa,Orilla
+448,1/7/14,Ouzeri Elian,11.41,Elsa,Orilla
+449,1/7/14,Hallowed Grounds,9.61,Kare,Orilla
+450,1/7/14,Hippokampos,16.11,Kare,Orilla
+451,1/7/14,Katerina’s Café,32.83,Kare,Orilla
+452,1/7/14,Brew've Been Served,14.49,Hennie,Osvaldo
+453,1/7/14,Gelatogalore,17.21,Hennie,Osvaldo
+454,1/7/14,Katerina’s Café,33.29,Hennie,Osvaldo
+455,1/7/14,Coffee Cameleon,9.1,Bertrand,Ovan
+456,1/7/14,Gelatogalore,8.97,Bertrand,Ovan
+457,1/7/14,Katerina’s Café,19.53,Bertrand,Ovan
+458,1/7/14,Brew've Been Served,7.74,Felix,Resumir
+459,1/7/14,Frydos Autosupply n' More,272.73,Felix,Resumir
+460,1/7/14,Ouzeri Elian,19.51,Felix,Resumir
+461,1/7/14,Abila Scrapyard,2149.28,Dylan,Scozzese
+462,1/7/14,Abila Airport,1641.96,Dylan,Scozzese
+463,1/7/14,Nationwide Refinery,889.58,Dylan,Scozzese
+464,1/7/14,Guy's Gyros,29.57,Orhan,Strum
+465,1/7/14,Jack's Magical Beans,19.61,Orhan,Strum
+466,1/7/14,Abila Zacharo,17.81,Brand,Tempestad
+467,1/7/14,Brew've Been Served,18.53,Brand,Tempestad
+468,1/7/14,Kalami Kafenion,18.06,Edvard,Vann
+469,1/7/14,Brewed Awakenings,12.59,Isia,Vann
+470,1/7/14,Guy's Gyros,38.56,Isia,Vann
+471,1/7/14,Guy's Gyros,9.76,Isia,Vann
+472,1/7/14,Gelatogalore,8.98,Willem,Vasco-Pais
+473,1/7/14,Hippokampos,37.88,Willem,Vasco-Pais
+474,1/7/14,Jack's Magical Beans,9.84,Willem,Vasco-Pais
+475,1/8/14,Hippokampos,39.8,Lucas,Alcazar
+476,1/8/14,Ouzeri Elian,10.81,Lucas,Alcazar
+477,1/8/14,Abila Zacharo,14.41,Lars,Azada
+478,1/8/14,Bean There Done That,17.45,Lars,Azada
+479,1/8/14,Hippokampos,10.52,Lars,Azada
+480,1/8/14,Albert's Fine Clothing,136.01,Felix,Balas
+481,1/8/14,Bean There Done That,12.07,Felix,Balas
+482,1/8/14,Hippokampos,28.79,Felix,Balas
+483,1/8/14,Brewed Awakenings,11.73,Ingrid,Barranco
+484,1/8/14,Hippokampos,26.31,Ingrid,Barranco
+485,1/8/14,Ouzeri Elian,32.61,Ingrid,Barranco
+486,1/8/14,Jack's Magical Beans,3.96,Isak,Baza
+487,1/8/14,Katerina’s Café,8.53,Isak,Baza
+488,1/8/14,Ouzeri Elian,29.85,Isak,Baza
+489,1/8/14,Coffee Cameleon,6.59,Linnea,Bergen
+490,1/8/14,Hippokampos,16.59,Linnea,Bergen
+491,1/8/14,Katerina’s Café,19.12,Linnea,Bergen
+492,1/8/14,Brew've Been Served,12.92,Loreto,Bodrogi
+493,1/8/14,Frank's Fuel,65.34,Loreto,Bodrogi
+494,1/8/14,Frydos Autosupply n' More,182.56,Loreto,Bodrogi
+495,1/8/14,Guy's Gyros,17.9,Loreto,Bodrogi
+496,1/8/14,Brewed Awakenings,12.32,Isande,Borrasca
+497,1/8/14,Chostus Hotel,107.51,Isande,Borrasca
+498,1/8/14,Hippokampos,16.54,Isande,Borrasca
+499,1/8/14,Gelatogalore,35.29,Nils,Calixto
+500,1/8/14,Hallowed Grounds,19.92,Nils,Calixto
+501,1/8/14,Katerina’s Café,36.6,Nils,Calixto
+502,1/8/14,Hippokampos,12.62,Axel,Calzas
+503,1/8/14,Hippokampos,26.55,Ada,Campo-Corrente
+504,1/8/14,Hippokampos,15.64,Ada,Campo-Corrente
+505,1/8/14,Bean There Done That,14.96,Gustav,Cazar
+506,1/8/14,Hippokampos,37.89,Gustav,Cazar
+507,1/8/14,General Grocer,265.84,Hideki,Cocinaro
+508,1/8/14,Guy's Gyros,15.86,Lidelse,Dedos
+509,1/8/14,Hallowed Grounds,8.15,Lidelse,Dedos
+510,1/8/14,Katerina’s Café,27.87,Lidelse,Dedos
+511,1/8/14,Brew've Been Served,17.13,Inga,Ferro
+512,1/8/14,Gelatogalore,36.72,Inga,Ferro
+513,1/8/14,Brew've Been Served,3.42,Sven,Flecha
+514,1/8/14,Guy's Gyros,30.12,Sven,Flecha
+515,1/8/14,Guy's Gyros,28.81,Sven,Flecha
+516,1/8/14,Abila Zacharo,16.2,Birgitta,Frente
+517,1/8/14,Hallowed Grounds,3.4,Birgitta,Frente
+518,1/8/14,Bean There Done That,16.18,Vira,Frente
+519,1/8/14,Hippokampos,32.66,Vira,Frente
+520,1/8/14,Katerina’s Café,37.04,Vira,Frente
+521,1/8/14,Brew've Been Served,8.27,Stenig,Fusil
+522,1/8/14,Kalami Kafenion,14.77,Stenig,Fusil
+523,1/8/14,Brew've Been Served,7.26,Kanon,Herrero
+524,1/8/14,Brew've Been Served,11.87,Varja,Lagos
+525,1/8/14,Gelatogalore,39.75,Varja,Lagos
+526,1/8/14,Guy's Gyros,19.08,Varja,Lagos
+527,1/8/14,Abila Airport,2723.18,Henk,Mies
+528,1/8/14,Abila Airport,2769.12,Henk,Mies
+529,1/8/14,Brew've Been Served,6.3,Minke,Mies
+530,1/8/14,Guy's Gyros,10.34,Minke,Mies
+531,1/8/14,Guy's Gyros,30.48,Minke,Mies
+532,1/8/14,Nationwide Refinery,4513.16,Adan,Morlun
+533,1/8/14,Stewart and Sons Fabrication,1738.26,Adan,Morlun
+534,1/8/14,Carlyle Chemical Inc.,4901.88,Valeria,Morlun
+535,1/8/14,Katerina’s Café,29.26,Valeria,Morlun
+536,1/8/14,Nationwide Refinery,4367.43,Valeria,Morlun
+537,1/8/14,Nationwide Refinery,3674.32,Cecilia,Morluniau
+538,1/8/14,Stewart and Sons Fabrication,1673.77,Cecilia,Morluniau
+539,1/8/14,Carlyle Chemical Inc.,4983.52,Irene,Nant
+540,1/8/14,Kronos Pipe and Irrigation,3615.61,Irene,Nant
+541,1/8/14,Maximum Iron and Steel,3136.01,Irene,Nant
+542,1/8/14,Coffee Cameleon,15.71,Adra,Nubarron
+543,1/8/14,Katerina’s Café,26.45,Adra,Nubarron
+544,1/8/14,Katerina’s Café,33.31,Adra,Nubarron
+545,1/8/14,Katerina’s Café,31.59,Marin,Onda
+546,1/8/14,Gelatogalore,50.36,Elsa,Orilla
+547,1/8/14,Jack's Magical Beans,18.78,Elsa,Orilla
+548,1/8/14,Ouzeri Elian,62.2,Elsa,Orilla
+549,1/8/14,Hallowed Grounds,3.11,Kare,Orilla
+550,1/8/14,Kalami Kafenion,23.82,Kare,Orilla
+551,1/8/14,Brew've Been Served,13.68,Hennie,Osvaldo
+552,1/8/14,Gelatogalore,20.72,Hennie,Osvaldo
+553,1/8/14,Coffee Cameleon,12.26,Bertrand,Ovan
+554,1/8/14,Kalami Kafenion,24.08,Bertrand,Ovan
+555,1/8/14,Katerina’s Café,32.83,Bertrand,Ovan
+556,1/8/14,Abila Zacharo,30.85,Felix,Resumir
+557,1/8/14,Brew've Been Served,10.15,Felix,Resumir
+558,1/8/14,Jack's Magical Beans,12.37,Orhan,Strum
+559,1/8/14,Ouzeri Elian,29.73,Orhan,Strum
+560,1/8/14,Brew've Been Served,19.17,Brand,Tempestad
+561,1/8/14,Chostus Hotel,111.89,Brand,Tempestad
+562,1/8/14,Guy's Gyros,18.24,Brand,Tempestad
+563,1/8/14,Brew've Been Served,12.3,Edvard,Vann
+564,1/8/14,Hippokampos,9.03,Edvard,Vann
+565,1/8/14,Brew've Been Served,15.66,Isia,Vann
+566,1/8/14,Guy's Gyros,15.69,Isia,Vann
+567,1/8/14,Kalami Kafenion,31.96,Isia,Vann
+568,1/8/14,Abila Zacharo,36.85,Willem,Vasco-Pais
+569,1/8/14,Hippokampos,18.99,Willem,Vasco-Pais
+570,1/8/14,Jack's Magical Beans,11.25,Willem,Vasco-Pais
+571,1/9/14,Abila Zacharo,29.41,Lucas,Alcazar
+572,1/9/14,Hallowed Grounds,14.45,Lucas,Alcazar
+573,1/9/14,Bean There Done That,13,Lars,Azada
+574,1/9/14,Guy's Gyros,14.91,Lars,Azada
+575,1/9/14,Hippokampos,8.43,Felix,Balas
+576,1/9/14,Hippokampos,10.12,Felix,Balas
+577,1/9/14,Kronos Mart,203.91,Ingrid,Barranco
+578,1/9/14,Ouzeri Elian,26.09,Ingrid,Barranco
+579,1/9/14,Gelatogalore,8.6,Isak,Baza
+580,1/9/14,Jack's Magical Beans,10.11,Isak,Baza
+581,1/9/14,Katerina’s Café,17.02,Linnea,Bergen
+582,1/9/14,Frydos Autosupply n' More,276.75,Loreto,Bodrogi
+583,1/9/14,Jack's Magical Beans,6,Loreto,Bodrogi
+584,1/9/14,Katerina’s Café,10.42,Loreto,Bodrogi
+585,1/9/14,Brewed Awakenings,13.16,Isande,Borrasca
+586,1/9/14,Gelatogalore,16.74,Isande,Borrasca
+587,1/9/14,Hippokampos,15.02,Isande,Borrasca
+588,1/9/14,Guy's Gyros,13.59,Nils,Calixto
+589,1/9/14,Guy's Gyros,8.23,Nils,Calixto
+590,1/9/14,Bean There Done That,4.06,Axel,Calzas
+591,1/9/14,Katerina’s Café,8.01,Axel,Calzas
+592,1/9/14,Albert's Fine Clothing,229.98,Ada,Campo-Corrente
+593,1/9/14,Brewed Awakenings,17.66,Ada,Campo-Corrente
+594,1/9/14,Frydos Autosupply n' More,60.65,Gustav,Cazar
+595,1/9/14,Hippokampos,9.12,Gustav,Cazar
+596,1/9/14,Hallowed Grounds,16.77,Hideki,Cocinaro
+597,1/9/14,Ouzeri Elian,32.89,Hideki,Cocinaro
+598,1/9/14,Abila Zacharo,20.73,Lidelse,Dedos
+599,1/9/14,Hallowed Grounds,17.84,Lidelse,Dedos
+600,1/9/14,Abila Zacharo,14.37,Inga,Ferro
+601,1/9/14,Brew've Been Served,5.3,Sven,Flecha
+602,1/9/14,Guy's Gyros,35.05,Sven,Flecha
+603,1/9/14,Kalami Kafenion,18.14,Sven,Flecha
+604,1/9/14,Guy's Gyros,15,Birgitta,Frente
+605,1/9/14,Hallowed Grounds,18.48,Birgitta,Frente
+606,1/9/14,Katerina’s Café,26,Birgitta,Frente
+607,1/9/14,Bean There Done That,4.05,Vira,Frente
+608,1/9/14,Hippokampos,24.96,Vira,Frente
+609,1/9/14,Kalami Kafenion,30.76,Vira,Frente
+610,1/9/14,Brew've Been Served,15.82,Stenig,Fusil
+611,1/9/14,Guy's Gyros,29.96,Stenig,Fusil
+612,1/9/14,Ouzeri Elian,22.4,Stenig,Fusil
+613,1/9/14,Abila Airport,2358.22,Benito,Hawelon
+614,1/9/14,Nationwide Refinery,1420.39,Benito,Hawelon
+615,1/9/14,Stewart and Sons Fabrication,1015.65,Benito,Hawelon
+616,1/9/14,Brew've Been Served,17.64,Kanon,Herrero
+617,1/9/14,Guy's Gyros,18.26,Kanon,Herrero
+618,1/9/14,Abila Zacharo,8.16,Varja,Lagos
+619,1/9/14,Brew've Been Served,12.12,Varja,Lagos
+620,1/9/14,Frydos Autosupply n' More,138.02,Varja,Lagos
+621,1/9/14,Abila Airport,182.93,Henk,Mies
+622,1/9/14,Abila Airport,4538.52,Henk,Mies
+623,1/9/14,Brew've Been Served,6.21,Minke,Mies
+624,1/9/14,Guy's Gyros,31.31,Minke,Mies
+625,1/9/14,Hippokampos,25.7,Minke,Mies
+626,1/9/14,Carlyle Chemical Inc.,529.47,Valeria,Morlun
+627,1/9/14,Carlyle Chemical Inc.,382.43,Valeria,Morlun
+628,1/9/14,Carlyle Chemical Inc.,2176.2,Valeria,Morlun
+629,1/9/14,Katerina’s Café,16.98,Valeria,Morlun
+630,1/9/14,Nationwide Refinery,289.3,Valeria,Morlun
+631,1/9/14,Nationwide Refinery,674.28,Cecilia,Morluniau
+632,1/9/14,Stewart and Sons Fabrication,3544,Cecilia,Morluniau
+633,1/9/14,Carlyle Chemical Inc.,732.82,Irene,Nant
+634,1/9/14,Kronos Pipe and Irrigation,423.14,Irene,Nant
+635,1/9/14,Maximum Iron and Steel,1527.14,Irene,Nant
+636,1/9/14,Coffee Cameleon,16.13,Adra,Nubarron
+637,1/9/14,Hallowed Grounds,17.56,Marin,Onda
+638,1/9/14,Hippokampos,13.84,Marin,Onda
+639,1/9/14,Katerina’s Café,8.57,Marin,Onda
+640,1/9/14,Abila Zacharo,48.39,Elsa,Orilla
+641,1/9/14,Katerina’s Café,19.02,Kare,Orilla
+642,1/9/14,Gelatogalore,11.94,Hennie,Osvaldo
+643,1/9/14,Hallowed Grounds,10.25,Hennie,Osvaldo
+644,1/9/14,Coffee Cameleon,19.99,Bertrand,Ovan
+645,1/9/14,Guy's Gyros,17.44,Bertrand,Ovan
+646,1/9/14,Katerina’s Café,26.6,Bertrand,Ovan
+647,1/9/14,Brew've Been Served,19.47,Felix,Resumir
+648,1/9/14,Abila Scrapyard,1158.36,Dylan,Scozzese
+649,1/9/14,Abila Airport,4792.5,Dylan,Scozzese
+650,1/9/14,Nationwide Refinery,1322.5,Dylan,Scozzese
+651,1/9/14,Stewart and Sons Fabrication,918.6,Dylan,Scozzese
+652,1/9/14,Hippokampos,23.66,Orhan,Strum
+653,1/9/14,Katerina’s Café,25.85,Orhan,Strum
+654,1/9/14,Brew've Been Served,10.71,Brand,Tempestad
+655,1/9/14,Hippokampos,27.93,Brand,Tempestad
+656,1/9/14,Brew've Been Served,5.13,Edvard,Vann
+657,1/9/14,Gelatogalore,23.45,Edvard,Vann
+658,1/9/14,General Grocer,285.34,Edvard,Vann
+659,1/9/14,Brew've Been Served,14.85,Isia,Vann
+660,1/9/14,Guy's Gyros,25.4,Isia,Vann
+661,1/9/14,Guy's Gyros,31.81,Isia,Vann
+662,1/9/14,Abila Zacharo,8.6,Willem,Vasco-Pais
+663,1/9/14,Hippokampos,9.13,Willem,Vasco-Pais
+664,1/9/14,Jack's Magical Beans,17.43,Willem,Vasco-Pais
+665,1/10/14,Hallowed Grounds,6.87,Lucas,Alcazar
+666,1/10/14,Bean There Done That,15.39,Lars,Azada
+667,1/10/14,Gelatogalore,26.15,Lars,Azada
+668,1/10/14,Hippokampos,28.22,Lars,Azada
+669,1/10/14,Bean There Done That,3.92,Felix,Balas
+670,1/10/14,Guy's Gyros,31.5,Felix,Balas
+671,1/10/14,Brewed Awakenings,13.82,Ingrid,Barranco
+672,1/10/14,Hippokampos,10.48,Ingrid,Barranco
+673,1/10/14,Katerina’s Café,34.76,Ingrid,Barranco
+674,1/10/14,Abila Zacharo,33.33,Isak,Baza
+675,1/10/14,Jack's Magical Beans,15.69,Isak,Baza
+676,1/10/14,Ouzeri Elian,19.92,Isak,Baza
+677,1/10/14,Coffee Cameleon,8.51,Linnea,Bergen
+678,1/10/14,Guy's Gyros,15.93,Linnea,Bergen
+679,1/10/14,Octavio's Office Supplies,64.51,Linnea,Bergen
+680,1/10/14,Brew've Been Served,14.45,Loreto,Bodrogi
+681,1/10/14,Ouzeri Elian,35.24,Loreto,Bodrogi
+682,1/10/14,Brewed Awakenings,6.17,Isande,Borrasca
+683,1/10/14,Hallowed Grounds,10.34,Nils,Calixto
+684,1/10/14,Ouzeri Elian,25.98,Nils,Calixto
+685,1/10/14,Bean There Done That,13.41,Axel,Calzas
+686,1/10/14,Ouzeri Elian,15.25,Axel,Calzas
+687,1/10/14,Brewed Awakenings,13.9,Ada,Campo-Corrente
+688,1/10/14,Hippokampos,30.63,Ada,Campo-Corrente
+689,1/10/14,Hippokampos,17.21,Ada,Campo-Corrente
+690,1/10/14,Bean There Done That,18.67,Gustav,Cazar
+691,1/10/14,Guy's Gyros,31.05,Gustav,Cazar
+692,1/10/14,Hallowed Grounds,10.76,Hideki,Cocinaro
+693,1/10/14,Katerina’s Café,37.62,Hideki,Cocinaro
+694,1/10/14,Abila Zacharo,8.22,Lidelse,Dedos
+695,1/10/14,Hallowed Grounds,12.03,Lidelse,Dedos
+696,1/10/14,Abila Zacharo,36.38,Inga,Ferro
+697,1/10/14,Brew've Been Served,3.03,Inga,Ferro
+698,1/10/14,Shoppers' Delight,279.53,Inga,Ferro
+699,1/10/14,Brew've Been Served,3.44,Sven,Flecha
+700,1/10/14,Frydos Autosupply n' More,217.08,Sven,Flecha
+701,1/10/14,Guy's Gyros,26.68,Sven,Flecha
+702,1/10/14,Hallowed Grounds,8.34,Birgitta,Frente
+703,1/10/14,Ouzeri Elian,30.93,Birgitta,Frente
+704,1/10/14,Albert's Fine Clothing,126.13,Vira,Frente
+705,1/10/14,Bean There Done That,9.3,Vira,Frente
+706,1/10/14,Katerina’s Café,25.62,Vira,Frente
+707,1/10/14,Brew've Been Served,15.85,Stenig,Fusil
+708,1/10/14,Guy's Gyros,26.76,Stenig,Fusil
+709,1/10/14,Guy's Gyros,23.61,Stenig,Fusil
+710,1/10/14,Carlyle Chemical Inc.,227.81,Claudio,Hawelon
+711,1/10/14,Nationwide Refinery,2262.73,Claudio,Hawelon
+712,1/10/14,Stewart and Sons Fabrication,4195.49,Claudio,Hawelon
+713,1/10/14,Brew've Been Served,5.89,Kanon,Herrero
+714,1/10/14,Brew've Been Served,5.01,Varja,Lagos
+715,1/10/14,Kalami Kafenion,35.69,Varja,Lagos
+716,1/10/14,Brew've Been Served,12.64,Minke,Mies
+717,1/10/14,General Grocer,227.28,Minke,Mies
+718,1/10/14,Kalami Kafenion,24.3,Minke,Mies
+719,1/10/14,Nationwide Refinery,1552.82,Cecilia,Morluniau
+720,1/10/14,Stewart and Sons Fabrication,4074.1,Cecilia,Morluniau
+721,1/10/14,Carlyle Chemical Inc.,3489.36,Irene,Nant
+722,1/10/14,Katerina’s Café,24.33,Adra,Nubarron
+723,1/10/14,Abila Zacharo,36.73,Marin,Onda
+724,1/10/14,Hallowed Grounds,11.49,Marin,Onda
+725,1/10/14,Jack's Magical Beans,16.29,Elsa,Orilla
+726,1/10/14,Kalami Kafenion,101.5,Elsa,Orilla
+727,1/10/14,Abila Zacharo,16.12,Kare,Orilla
+728,1/10/14,Brew've Been Served,13.32,Hennie,Osvaldo
+729,1/10/14,Katerina’s Café,15.76,Hennie,Osvaldo
+730,1/10/14,Ouzeri Elian,20.46,Hennie,Osvaldo
+731,1/10/14,Coffee Cameleon,11.54,Bertrand,Ovan
+732,1/10/14,Gelatogalore,39.4,Bertrand,Ovan
+733,1/10/14,Katerina’s Café,21.89,Bertrand,Ovan
+734,1/10/14,Brew've Been Served,5.31,Felix,Resumir
+735,1/10/14,Guy's Gyros,29.81,Felix,Resumir
+736,1/10/14,Hippokampos,39.89,Felix,Resumir
+737,1/10/14,Guy's Gyros,36.44,Orhan,Strum
+738,1/10/14,Jack's Magical Beans,5.46,Orhan,Strum
+739,1/10/14,Chostus Hotel,113.25,Brand,Tempestad
+740,1/10/14,Brew've Been Served,17.25,Edvard,Vann
+741,1/10/14,Guy's Gyros,27.78,Edvard,Vann
+742,1/10/14,Hippokampos,39.26,Edvard,Vann
+743,1/10/14,Octavio's Office Supplies,139.72,Edvard,Vann
+744,1/10/14,Brew've Been Served,10.72,Isia,Vann
+745,1/10/14,Katerina’s Café,25.36,Isia,Vann
+746,1/10/14,Hippokampos,32.01,Willem,Vasco-Pais
+747,1/10/14,Hippokampos,39.97,Willem,Vasco-Pais
+748,1/11/14,Hippokampos,70.23,Lars,Azada
+749,1/11/14,Hippokampos,67.37,Felix,Balas
+750,1/11/14,Frydos Autosupply n' More,52.73,Ingrid,Barranco
+751,1/11/14,Hippokampos,66.21,Ingrid,Barranco
+752,1/11/14,Hippokampos,20.87,Ingrid,Barranco
+753,1/11/14,Ouzeri Elian,69.36,Isak,Baza
+754,1/11/14,Katerina’s Café,29.17,Linnea,Bergen
+755,1/11/14,Abila Zacharo,89.54,Isande,Borrasca
+756,1/11/14,Katerina’s Café,57.36,Isande,Borrasca
+757,1/11/14,Katerina’s Café,12.55,Nils,Calixto
+758,1/11/14,Hippokampos,63.21,Ada,Campo-Corrente
+759,1/11/14,Katerina’s Café,23.45,Gustav,Cazar
+760,1/11/14,Kalami Kafenion,39.36,Hideki,Cocinaro
+761,1/11/14,Katerina’s Café,17.6,Lidelse,Dedos
+762,1/11/14,Kalami Kafenion,23.86,Inga,Ferro
+763,1/11/14,Guy's Gyros,33.65,Sven,Flecha
+764,1/11/14,Gelatogalore,17.31,Birgitta,Frente
+765,1/11/14,Katerina’s Café,55.67,Birgitta,Frente
+766,1/11/14,Katerina’s Café,29.1,Vira,Frente
+767,1/11/14,Guy's Gyros,55.69,Stenig,Fusil
+768,1/11/14,Katerina’s Café,71.65,Varja,Lagos
+769,1/11/14,Albert's Fine Clothing,211.47,Minke,Mies
+770,1/11/14,Hippokampos,23.38,Minke,Mies
+771,1/11/14,Katerina’s Café,26.02,Adra,Nubarron
+772,1/11/14,Katerina’s Café,33.18,Adra,Nubarron
+773,1/11/14,Abila Zacharo,54.82,Marin,Onda
+774,1/11/14,Katerina’s Café,45.68,Marin,Onda
+775,1/11/14,Kalami Kafenion,50.2,Elsa,Orilla
+776,1/11/14,Katerina’s Café,27.46,Kare,Orilla
+777,1/11/14,Katerina’s Café,9.78,Hennie,Osvaldo
+778,1/11/14,Frydos Autosupply n' More,54.98,Bertrand,Ovan
+779,1/11/14,Abila Zacharo,45.2,Felix,Resumir
+780,1/11/14,Frydos Autosupply n' More,261,Felix,Resumir
+781,1/11/14,Albert's Fine Clothing,105.33,Orhan,Strum
+782,1/11/14,Katerina’s Café,45.22,Orhan,Strum
+783,1/11/14,Ahaggo Museum,32.14,Brand,Tempestad
+784,1/11/14,Hippokampos,32.63,Brand,Tempestad
+785,1/11/14,Ahaggo Museum,89.32,Edvard,Vann
+786,1/11/14,Hippokampos,63.21,Edvard,Vann
+787,1/11/14,Guy's Gyros,16.33,Isia,Vann
+788,1/12/14,Hippokampos,31.99,Lucas,Alcazar
+789,1/12/14,Hippokampos,66.63,Lars,Azada
+790,1/12/14,Hippokampos,78.21,Felix,Balas
+791,1/12/14,Desafio Golf Course,160.77,Ingrid,Barranco
+792,1/12/14,Hippokampos,63.32,Ingrid,Barranco
+793,1/12/14,Ouzeri Elian,55.55,Isak,Baza
+794,1/12/14,Katerina’s Café,11.81,Linnea,Bergen
+795,1/12/14,Guy's Gyros,34.41,Loreto,Bodrogi
+796,1/12/14,Hippokampos,29.41,Isande,Borrasca
+797,1/12/14,Kalami Kafenion,26.04,Isande,Borrasca
+798,1/12/14,Hippokampos,8.54,Nils,Calixto
+799,1/12/14,Katerina’s Café,12.64,Nils,Calixto
+800,1/12/14,Albert's Fine Clothing,63.36,Axel,Calzas
+801,1/12/14,Desafio Golf Course,198.46,Ada,Campo-Corrente
+802,1/12/14,Hippokampos,26.79,Ada,Campo-Corrente
+803,1/12/14,Ouzeri Elian,38.55,Ada,Campo-Corrente
+804,1/12/14,Hippokampos,27.15,Gustav,Cazar
+805,1/12/14,Guy's Gyros,42.32,Hideki,Cocinaro
+806,1/12/14,Hippokampos,12.57,Lidelse,Dedos
+807,1/12/14,Katerina’s Café,27.09,Lidelse,Dedos
+808,1/12/14,Ouzeri Elian,24.72,Inga,Ferro
+809,1/12/14,Shoppers' Delight,204.37,Inga,Ferro
+810,1/12/14,Shoppers' Delight,211.03,Sven,Flecha
+811,1/12/14,Hippokampos,49.23,Vira,Frente
+812,1/12/14,Kronos Mart,159.06,Stenig,Fusil
+813,1/12/14,Shoppers' Delight,86.22,Kanon,Herrero
+814,1/12/14,Guy's Gyros,42.78,Varja,Lagos
+815,1/12/14,Albert's Fine Clothing,195.81,Adra,Nubarron
+816,1/12/14,Hippokampos,12.55,Adra,Nubarron
+817,1/12/14,Ouzeri Elian,72.32,Marin,Onda
+818,1/12/14,Shoppers' Delight,135.78,Marin,Onda
+819,1/12/14,Gelatogalore,36.2,Elsa,Orilla
+820,1/12/14,Kalami Kafenion,14.59,Kare,Orilla
+821,1/12/14,Katerina’s Café,15.37,Hennie,Osvaldo
+822,1/12/14,Katerina’s Café,34.1,Bertrand,Ovan
+823,1/12/14,Katerina’s Café,67.14,Bertrand,Ovan
+824,1/12/14,Shoppers' Delight,51.5,Bertrand,Ovan
+825,1/12/14,Ahaggo Museum,120.2,Felix,Resumir
+826,1/12/14,Guy's Gyros,34.74,Felix,Resumir
+827,1/12/14,Hippokampos,52.21,Orhan,Strum
+828,1/12/14,Ouzeri Elian,117.22,Orhan,Strum
+829,1/12/14,Abila Zacharo,11.2,Brand,Tempestad
+830,1/12/14,Desafio Golf Course,129.33,Willem,Vasco-Pais
+831,1/13/14,Hallowed Grounds,14.11,Lucas,Alcazar
+832,1/13/14,Hippokampos,30.51,Lucas,Alcazar
+833,1/13/14,Ouzeri Elian,28.75,Lucas,Alcazar
+834,1/13/14,Bean There Done That,7.93,Lars,Azada
+835,1/13/14,Gelatogalore,36.93,Lars,Azada
+836,1/13/14,Hippokampos,31.59,Lars,Azada
+837,1/13/14,Abila Zacharo,11.99,Felix,Balas
+838,1/13/14,Bean There Done That,18.02,Felix,Balas
+839,1/13/14,Abila Zacharo,36.14,Ingrid,Barranco
+840,1/13/14,Albert's Fine Clothing,288,Ingrid,Barranco
+841,1/13/14,Brewed Awakenings,12.69,Ingrid,Barranco
+842,1/13/14,Jack's Magical Beans,18.31,Isak,Baza
+843,1/13/14,Katerina’s Café,26.15,Isak,Baza
+844,1/13/14,Coffee Cameleon,4.88,Linnea,Bergen
+845,1/13/14,Hippokampos,35.73,Linnea,Bergen
+846,1/13/14,Abila Zacharo,36.32,Loreto,Bodrogi
+847,1/13/14,Brew've Been Served,12.8,Loreto,Bodrogi
+848,1/13/14,Shoppers' Delight,216.43,Loreto,Bodrogi
+849,1/13/14,Brewed Awakenings,16.4,Isande,Borrasca
+850,1/13/14,Guy's Gyros,27.49,Isande,Borrasca
+851,1/13/14,Hallowed Grounds,9.16,Nils,Calixto
+852,1/13/14,Katerina’s Café,37.88,Nils,Calixto
+853,1/13/14,Katerina’s Café,15.82,Nils,Calixto
+854,1/13/14,Bean There Done That,19.56,Axel,Calzas
+855,1/13/14,Ouzeri Elian,29.75,Axel,Calzas
+856,1/13/14,Brewed Awakenings,16.25,Ada,Campo-Corrente
+857,1/13/14,Gelatogalore,26.45,Ada,Campo-Corrente
+858,1/13/14,Hippokampos,31.47,Ada,Campo-Corrente
+859,1/13/14,Abila Zacharo,27.3,Gustav,Cazar
+860,1/13/14,Albert's Fine Clothing,49.48,Gustav,Cazar
+861,1/13/14,Bean There Done That,5.54,Gustav,Cazar
+862,1/13/14,Guy's Gyros,33.48,Hideki,Cocinaro
+863,1/13/14,Guy's Gyros,37.5,Hideki,Cocinaro
+864,1/13/14,Hallowed Grounds,19.18,Hideki,Cocinaro
+865,1/13/14,Bean There Done That,10.37,Lidelse,Dedos
+866,1/13/14,Katerina’s Café,8.29,Lidelse,Dedos
+867,1/13/14,Katerina’s Café,27.59,Lidelse,Dedos
+868,1/13/14,Abila Zacharo,17.41,Inga,Ferro
+869,1/13/14,Brew've Been Served,6.69,Inga,Ferro
+870,1/13/14,Guy's Gyros,15.84,Inga,Ferro
+871,1/13/14,Brew've Been Served,8.04,Sven,Flecha
+872,1/13/14,Guy's Gyros,36.89,Sven,Flecha
+873,1/13/14,Hippokampos,31.97,Sven,Flecha
+874,1/13/14,Bean There Done That,15.24,Birgitta,Frente
+875,1/13/14,Hippokampos,25.09,Birgitta,Frente
+876,1/13/14,Abila Zacharo,23.03,Vira,Frente
+877,1/13/14,Bean There Done That,18.59,Vira,Frente
+878,1/13/14,Abila Zacharo,39.95,Stenig,Fusil
+879,1/13/14,Brew've Been Served,4.18,Stenig,Fusil
+880,1/13/14,Carlyle Chemical Inc.,1718.96,Albina,Hafon
+881,1/13/14,Abila Airport,3617.47,Albina,Hafon
+882,1/13/14,Kronos Pipe and Irrigation,2852.74,Albina,Hafon
+883,1/13/14,Maximum Iron and Steel,689.85,Albina,Hafon
+884,1/13/14,Ouzeri Elian,19.82,Albina,Hafon
+885,1/13/14,Brew've Been Served,11.49,Kanon,Herrero
+886,1/13/14,Guy's Gyros,28.57,Kanon,Herrero
+887,1/13/14,Brew've Been Served,18.23,Varja,Lagos
+888,1/13/14,Abila Airport,4417.03,Henk,Mies
+889,1/13/14,Abila Airport,2228.08,Henk,Mies
+890,1/13/14,Brew've Been Served,16.05,Minke,Mies
+891,1/13/14,Frydos Autosupply n' More,87.57,Minke,Mies
+892,1/13/14,Hippokampos,17.17,Minke,Mies
+893,1/13/14,Nationwide Refinery,204.58,Cecilia,Morluniau
+894,1/13/14,Stewart and Sons Fabrication,4071.95,Cecilia,Morluniau
+895,1/13/14,Coffee Cameleon,17.76,Adra,Nubarron
+896,1/13/14,Guy's Gyros,37.37,Adra,Nubarron
+897,1/13/14,Katerina’s Café,35.7,Adra,Nubarron
+898,1/13/14,Katerina’s Café,11.36,Marin,Onda
+899,1/13/14,Ouzeri Elian,8.32,Marin,Onda
+900,1/13/14,Abila Zacharo,64.5,Elsa,Orilla
+901,1/13/14,Jack's Magical Beans,5.22,Elsa,Orilla
+902,1/13/14,Hallowed Grounds,13.68,Kare,Orilla
+903,1/13/14,Katerina’s Café,24.26,Kare,Orilla
+904,1/13/14,Hallowed Grounds,5.85,Hennie,Osvaldo
+905,1/13/14,Katerina’s Café,33.11,Hennie,Osvaldo
+906,1/13/14,Coffee Cameleon,19.93,Bertrand,Ovan
+907,1/13/14,Katerina’s Café,29.55,Bertrand,Ovan
+908,1/13/14,Katerina’s Café,29.83,Bertrand,Ovan
+909,1/13/14,Guy's Gyros,12.76,Felix,Resumir
+910,1/13/14,Shoppers' Delight,144.4,Felix,Resumir
+911,1/13/14,Gelatogalore,32.83,Orhan,Strum
+912,1/13/14,Hippokampos,39.63,Orhan,Strum
+913,1/13/14,Jack's Magical Beans,9.64,Orhan,Strum
+914,1/13/14,Abila Zacharo,8.72,Brand,Tempestad
+915,1/13/14,Brew've Been Served,8,Brand,Tempestad
+916,1/13/14,Brew've Been Served,18.71,Edvard,Vann
+917,1/13/14,Guy's Gyros,20.47,Edvard,Vann
+918,1/13/14,Ouzeri Elian,35.03,Edvard,Vann
+919,1/13/14,Brew've Been Served,19.64,Isia,Vann
+920,1/13/14,Guy's Gyros,22.34,Isia,Vann
+921,1/13/14,Hippokampos,39.9,Isia,Vann
+922,1/13/14,Guy's Gyros,29.25,Willem,Vasco-Pais
+923,1/13/14,Hippokampos,29.22,Willem,Vasco-Pais
+924,1/13/14,Jack's Magical Beans,17.52,Willem,Vasco-Pais
+925,1/14/14,Kalami Kafenion,16.84,Lucas,Alcazar
+926,1/14/14,Ouzeri Elian,15.94,Lucas,Alcazar
+927,1/14/14,Bean There Done That,7.28,Lars,Azada
+928,1/14/14,Hippokampos,39.64,Lars,Azada
+929,1/14/14,Albert's Fine Clothing,228.72,Felix,Balas
+930,1/14/14,Bean There Done That,19.37,Felix,Balas
+931,1/14/14,Kalami Kafenion,17.38,Felix,Balas
+932,1/14/14,Brewed Awakenings,17.14,Ingrid,Barranco
+933,1/14/14,Jack's Magical Beans,13.32,Isak,Baza
+934,1/14/14,Ouzeri Elian,11.86,Isak,Baza
+935,1/14/14,Coffee Cameleon,15.63,Linnea,Bergen
+936,1/14/14,Hippokampos,36.01,Linnea,Bergen
+937,1/14/14,Brew've Been Served,6.45,Loreto,Bodrogi
+938,1/14/14,Hippokampos,19.07,Loreto,Bodrogi
+939,1/14/14,Brewed Awakenings,8.3,Isande,Borrasca
+940,1/14/14,Chostus Hotel,109.54,Isande,Borrasca
+941,1/14/14,Hippokampos,22.13,Isande,Borrasca
+942,1/14/14,Hallowed Grounds,10.75,Nils,Calixto
+943,1/14/14,Hippokampos,18.81,Nils,Calixto
+944,1/14/14,Katerina’s Café,31.8,Nils,Calixto
+945,1/14/14,Gelatogalore,10.98,Axel,Calzas
+946,1/14/14,Hippokampos,10.71,Axel,Calzas
+947,1/14/14,Brewed Awakenings,11.35,Ada,Campo-Corrente
+948,1/14/14,Hippokampos,23.56,Ada,Campo-Corrente
+949,1/14/14,Kalami Kafenion,15.15,Ada,Campo-Corrente
+950,1/14/14,Bean There Done That,7.82,Gustav,Cazar
+951,1/14/14,Kalami Kafenion,15.27,Gustav,Cazar
+952,1/14/14,Guy's Gyros,34.26,Hideki,Cocinaro
+953,1/14/14,Hallowed Grounds,13,Hideki,Cocinaro
+954,1/14/14,Ouzeri Elian,22.3,Hideki,Cocinaro
+955,1/14/14,Guy's Gyros,16.35,Lidelse,Dedos
+956,1/14/14,Hallowed Grounds,19.99,Lidelse,Dedos
+957,1/14/14,Katerina’s Café,12.65,Lidelse,Dedos
+958,1/14/14,Brew've Been Served,11.94,Inga,Ferro
+959,1/14/14,Guy's Gyros,25.28,Inga,Ferro
+960,1/14/14,Katerina’s Café,33.54,Inga,Ferro
+961,1/14/14,Brew've Been Served,8.24,Sven,Flecha
+962,1/14/14,Gelatogalore,27.26,Sven,Flecha
+963,1/14/14,Guy's Gyros,12.96,Sven,Flecha
+964,1/14/14,Guy's Gyros,38.26,Birgitta,Frente
+965,1/14/14,Hallowed Grounds,10.21,Birgitta,Frente
+966,1/14/14,Katerina’s Café,18.35,Birgitta,Frente
+967,1/14/14,Bean There Done That,5.9,Vira,Frente
+968,1/14/14,Katerina’s Café,10.03,Vira,Frente
+969,1/14/14,Abila Zacharo,8.41,Stenig,Fusil
+970,1/14/14,Brew've Been Served,3.66,Stenig,Fusil
+971,1/14/14,Abila Airport,2369.56,Benito,Hawelon
+972,1/14/14,Nationwide Refinery,1301.01,Benito,Hawelon
+973,1/14/14,Stewart and Sons Fabrication,540.19,Benito,Hawelon
+974,1/14/14,Brew've Been Served,3.21,Kanon,Herrero
+975,1/14/14,Albert's Fine Clothing,50.77,Varja,Lagos
+976,1/14/14,Brew've Been Served,10.96,Varja,Lagos
+977,1/14/14,Ouzeri Elian,27.32,Varja,Lagos
+978,1/14/14,Abila Airport,228.41,Henk,Mies
+979,1/14/14,Abila Airport,4898.39,Henk,Mies
+980,1/14/14,Abila Zacharo,24.87,Minke,Mies
+981,1/14/14,Brewed Awakenings,12.74,Minke,Mies
+982,1/14/14,Frydos Autosupply n' More,42.72,Minke,Mies
+983,1/14/14,Carlyle Chemical Inc.,3630.57,Valeria,Morlun
+984,1/14/14,Carlyle Chemical Inc.,794.88,Valeria,Morlun
+985,1/14/14,Carlyle Chemical Inc.,3470.99,Valeria,Morlun
+986,1/14/14,Nationwide Refinery,570.95,Valeria,Morlun
+987,1/14/14,Nationwide Refinery,965.72,Cecilia,Morluniau
+988,1/14/14,Stewart and Sons Fabrication,278.52,Cecilia,Morluniau
+989,1/14/14,Coffee Cameleon,7.84,Adra,Nubarron
+990,1/14/14,Abila Zacharo,10.24,Marin,Onda
+991,1/14/14,Hallowed Grounds,4.59,Marin,Onda
+992,1/14/14,Guy's Gyros,50.4,Elsa,Orilla
+993,1/14/14,Jack's Magical Beans,3.36,Elsa,Orilla
+994,1/14/14,Kalami Kafenion,23.1,Kare,Orilla
+995,1/14/14,Katerina’s Café,11.89,Kare,Orilla
+996,1/14/14,Abila Zacharo,15.26,Hennie,Osvaldo
+997,1/14/14,Brew've Been Served,16.53,Hennie,Osvaldo
+998,1/14/14,Roberts and Sons,203.81,Hennie,Osvaldo
+999,1/14/14,Coffee Cameleon,9.8,Bertrand,Ovan
+1000,1/14/14,Katerina’s Café,15.46,Bertrand,Ovan
+1001,1/14/14,Katerina’s Café,36.95,Bertrand,Ovan
+1002,1/14/14,Brew've Been Served,12.31,Felix,Resumir
+1003,1/14/14,Frydos Autosupply n' More,146.74,Felix,Resumir
+1004,1/14/14,Hippokampos,17.18,Felix,Resumir
+1005,1/14/14,Abila Scrapyard,4277.4,Dylan,Scozzese
+1006,1/14/14,Abila Airport,3339.21,Dylan,Scozzese
+1007,1/14/14,Nationwide Refinery,4429.76,Dylan,Scozzese
+1008,1/14/14,Jack's Magical Beans,15.7,Orhan,Strum
+1009,1/14/14,Katerina’s Café,29.12,Orhan,Strum
+1010,1/14/14,Brew've Been Served,5.87,Brand,Tempestad
+1011,1/14/14,Chostus Hotel,113.08,Brand,Tempestad
+1012,1/14/14,Brew've Been Served,4.72,Edvard,Vann
+1013,1/14/14,Guy's Gyros,23.59,Edvard,Vann
+1014,1/14/14,Katerina’s Café,29.1,Edvard,Vann
+1015,1/14/14,Brew've Been Served,7.31,Isia,Vann
+1016,1/14/14,Guy's Gyros,26.14,Isia,Vann
+1017,1/14/14,Katerina’s Café,20.95,Isia,Vann
+1018,1/14/14,Gelatogalore,39.17,Willem,Vasco-Pais
+1019,1/14/14,Hippokampos,9.55,Willem,Vasco-Pais
+1020,1/14/14,Jack's Magical Beans,18.08,Willem,Vasco-Pais
+1021,1/15/14,Hallowed Grounds,15.86,Lucas,Alcazar
+1022,1/15/14,Ouzeri Elian,24.81,Lucas,Alcazar
+1023,1/15/14,Ouzeri Elian,32.95,Lucas,Alcazar
+1024,1/15/14,Guy's Gyros,14.37,Lars,Azada
+1025,1/15/14,Abila Zacharo,8.83,Felix,Balas
+1026,1/15/14,Bean There Done That,5.34,Felix,Balas
+1027,1/15/14,Hippokampos,35.12,Felix,Balas
+1028,1/15/14,Abila Zacharo,23.51,Ingrid,Barranco
+1029,1/15/14,Brewed Awakenings,15.75,Ingrid,Barranco
+1030,1/15/14,Hippokampos,13,Isak,Baza
+1031,1/15/14,Ouzeri Elian,23.18,Isak,Baza
+1032,1/15/14,Coffee Cameleon,5.49,Linnea,Bergen
+1033,1/15/14,Katerina’s Café,13.77,Linnea,Bergen
+1034,1/15/14,Ouzeri Elian,8.93,Linnea,Bergen
+1035,1/15/14,Brew've Been Served,15.58,Loreto,Bodrogi
+1036,1/15/14,Gelatogalore,31.21,Loreto,Bodrogi
+1037,1/15/14,Guy's Gyros,21.43,Loreto,Bodrogi
+1038,1/15/14,Brewed Awakenings,11.62,Isande,Borrasca
+1039,1/15/14,Frydos Autosupply n' More,18.91,Isande,Borrasca
+1040,1/15/14,Hippokampos,22.61,Isande,Borrasca
+1041,1/15/14,Abila Zacharo,31,Nils,Calixto
+1042,1/15/14,Bean There Done That,13.13,Axel,Calzas
+1043,1/15/14,Hippokampos,32.4,Axel,Calzas
+1044,1/15/14,Hippokampos,16.37,Axel,Calzas
+1045,1/15/14,Brewed Awakenings,3.62,Ada,Campo-Corrente
+1046,1/15/14,Hippokampos,36.7,Ada,Campo-Corrente
+1047,1/15/14,Shoppers' Delight,102,Ada,Campo-Corrente
+1048,1/15/14,Bean There Done That,18.96,Gustav,Cazar
+1049,1/15/14,Hippokampos,10.35,Gustav,Cazar
+1050,1/15/14,Ouzeri Elian,36.47,Gustav,Cazar
+1051,1/15/14,Hallowed Grounds,12.17,Hideki,Cocinaro
+1052,1/15/14,Kronos Mart,258.83,Hideki,Cocinaro
+1053,1/15/14,Ouzeri Elian,22.86,Hideki,Cocinaro
+1054,1/15/14,Kalami Kafenion,26.17,Lidelse,Dedos
+1055,1/15/14,Brew've Been Served,6.58,Inga,Ferro
+1056,1/15/14,Gelatogalore,39.4,Inga,Ferro
+1057,1/15/14,General Grocer,106.2,Inga,Ferro
+1058,1/15/14,Brew've Been Served,3.71,Sven,Flecha
+1059,1/15/14,Guy's Gyros,25.58,Birgitta,Frente
+1060,1/15/14,Hallowed Grounds,5.28,Birgitta,Frente
+1061,1/15/14,Katerina’s Café,11.45,Birgitta,Frente
+1062,1/15/14,Bean There Done That,15.24,Vira,Frente
+1063,1/15/14,Hippokampos,21.14,Vira,Frente
+1064,1/15/14,Kalami Kafenion,27.86,Vira,Frente
+1065,1/15/14,Brew've Been Served,15.5,Stenig,Fusil
+1066,1/15/14,Guy's Gyros,36.35,Stenig,Fusil
+1067,1/15/14,Brew've Been Served,11.23,Kanon,Herrero
+1068,1/15/14,Guy's Gyros,27.01,Kanon,Herrero
+1069,1/15/14,Brew've Been Served,14.06,Varja,Lagos
+1070,1/15/14,Guy's Gyros,18.04,Varja,Lagos
+1071,1/15/14,Ouzeri Elian,12.9,Varja,Lagos
+1072,1/15/14,Abila Airport,3152.41,Henk,Mies
+1073,1/15/14,Abila Airport,875.87,Henk,Mies
+1074,1/15/14,Brew've Been Served,9.7,Minke,Mies
+1075,1/15/14,Guy's Gyros,31.04,Minke,Mies
+1076,1/15/14,Hippokampos,38.23,Minke,Mies
+1077,1/15/14,Stewart and Sons Fabrication,4485.38,Adan,Morlun
+1078,1/15/14,Carlyle Chemical Inc.,3608.08,Valeria,Morlun
+1079,1/15/14,Carlyle Chemical Inc.,1112.04,Valeria,Morlun
+1080,1/15/14,Carlyle Chemical Inc.,1392.73,Valeria,Morlun
+1081,1/15/14,Katerina’s Café,24.15,Valeria,Morlun
+1082,1/15/14,Nationwide Refinery,3004.98,Valeria,Morlun
+1083,1/15/14,Nationwide Refinery,1391.24,Cecilia,Morluniau
+1084,1/15/14,Kronos Pipe and Irrigation,2564,Irene,Nant
+1085,1/15/14,Maximum Iron and Steel,4788.22,Irene,Nant
+1086,1/15/14,Coffee Cameleon,19.93,Adra,Nubarron
+1087,1/15/14,Guy's Gyros,15.89,Adra,Nubarron
+1088,1/15/14,Katerina’s Café,12.12,Marin,Onda
+1089,1/15/14,Katerina’s Café,39.63,Marin,Onda
+1090,1/15/14,Jack's Magical Beans,5.3,Elsa,Orilla
+1091,1/15/14,Katerina’s Café,55.6,Elsa,Orilla
+1092,1/15/14,Ouzeri Elian,28.86,Elsa,Orilla
+1093,1/15/14,Abila Zacharo,24.53,Kare,Orilla
+1094,1/15/14,Hallowed Grounds,14.33,Kare,Orilla
+1095,1/15/14,Katerina’s Café,39.23,Kare,Orilla
+1096,1/15/14,Brew've Been Served,11.47,Hennie,Osvaldo
+1097,1/15/14,Abila Zacharo,33.8,Bertrand,Ovan
+1098,1/15/14,Coffee Cameleon,14.47,Bertrand,Ovan
+1099,1/15/14,Katerina’s Café,27.48,Bertrand,Ovan
+1100,1/15/14,Brew've Been Served,18.58,Felix,Resumir
+1101,1/15/14,Kalami Kafenion,28.82,Felix,Resumir
+1102,1/15/14,Hippokampos,37.16,Orhan,Strum
+1103,1/15/14,Jack's Magical Beans,4.06,Orhan,Strum
+1104,1/15/14,Kalami Kafenion,22.39,Orhan,Strum
+1105,1/15/14,Brew've Been Served,19.87,Brand,Tempestad
+1106,1/15/14,Frydos Autosupply n' More,235.27,Brand,Tempestad
+1107,1/15/14,Hippokampos,38.89,Brand,Tempestad
+1108,1/15/14,Brew've Been Served,4.92,Edvard,Vann
+1109,1/15/14,General Grocer,137.65,Edvard,Vann
+1110,1/15/14,Guy's Gyros,19.8,Edvard,Vann
+1111,1/15/14,Guy's Gyros,29.34,Isia,Vann
+1112,1/15/14,Guy's Gyros,28.75,Isia,Vann
+1113,1/15/14,Gelatogalore,9.61,Willem,Vasco-Pais
+1114,1/15/14,General Grocer,83.11,Willem,Vasco-Pais
+1115,1/15/14,Jack's Magical Beans,19.54,Willem,Vasco-Pais
+1116,1/16/14,Guy's Gyros,10.27,Lucas,Alcazar
+1117,1/16/14,Hallowed Grounds,12.19,Lucas,Alcazar
+1118,1/16/14,Ouzeri Elian,9.91,Lucas,Alcazar
+1119,1/16/14,Bean There Done That,19.82,Lars,Azada
+1120,1/16/14,Hippokampos,31.14,Lars,Azada
+1121,1/16/14,Kronos Mart,286.24,Lars,Azada
+1122,1/16/14,Bean There Done That,12.33,Felix,Balas
+1123,1/16/14,Hippokampos,10.55,Felix,Balas
+1124,1/16/14,Kalami Kafenion,31.38,Felix,Balas
+1125,1/16/14,Hippokampos,20.84,Ingrid,Barranco
+1126,1/16/14,Katerina’s Café,27.82,Ingrid,Barranco
+1127,1/16/14,Hippokampos,36.17,Isak,Baza
+1128,1/16/14,Jack's Magical Beans,9.12,Isak,Baza
+1129,1/16/14,Ouzeri Elian,23.89,Isak,Baza
+1130,1/16/14,Coffee Cameleon,5.2,Linnea,Bergen
+1131,1/16/14,Hippokampos,16.53,Linnea,Bergen
+1132,1/16/14,Katerina’s Café,36.32,Linnea,Bergen
+1133,1/16/14,Brew've Been Served,5.82,Loreto,Bodrogi
+1134,1/16/14,Ouzeri Elian,12.47,Loreto,Bodrogi
+1135,1/16/14,Brewed Awakenings,6.53,Isande,Borrasca
+1136,1/16/14,Hippokampos,10.38,Isande,Borrasca
+1137,1/16/14,Guy's Gyros,31.48,Nils,Calixto
+1138,1/16/14,Hallowed Grounds,13.84,Nils,Calixto
+1139,1/16/14,Katerina’s Café,10.93,Nils,Calixto
+1140,1/16/14,Bean There Done That,5.56,Axel,Calzas
+1141,1/16/14,Guy's Gyros,32.8,Axel,Calzas
+1142,1/16/14,Shoppers' Delight,100.69,Axel,Calzas
+1143,1/16/14,Brewed Awakenings,6.39,Ada,Campo-Corrente
+1144,1/16/14,Hippokampos,17.66,Ada,Campo-Corrente
+1145,1/16/14,Hippokampos,14.89,Gustav,Cazar
+1146,1/16/14,Hippokampos,29.13,Gustav,Cazar
+1147,1/16/14,Guy's Gyros,11.31,Hideki,Cocinaro
+1148,1/16/14,Hallowed Grounds,18.2,Hideki,Cocinaro
+1149,1/16/14,Frydos Autosupply n' More,53.37,Lidelse,Dedos
+1150,1/16/14,Gelatogalore,32.4,Lidelse,Dedos
+1151,1/16/14,Hallowed Grounds,7.22,Lidelse,Dedos
+1152,1/16/14,Albert's Fine Clothing,91.71,Inga,Ferro
+1153,1/16/14,Brew've Been Served,16.9,Inga,Ferro
+1154,1/16/14,Guy's Gyros,29.7,Inga,Ferro
+1155,1/16/14,Brew've Been Served,7.31,Sven,Flecha
+1156,1/16/14,Guy's Gyros,25.57,Sven,Flecha
+1157,1/16/14,Kalami Kafenion,8.86,Sven,Flecha
+1158,1/16/14,Hallowed Grounds,4.98,Birgitta,Frente
+1159,1/16/14,Hippokampos,29.93,Birgitta,Frente
+1160,1/16/14,Katerina’s Café,13.91,Birgitta,Frente
+1161,1/16/14,Bean There Done That,17.4,Vira,Frente
+1162,1/16/14,Hippokampos,34,Vira,Frente
+1163,1/16/14,Kalami Kafenion,26.32,Vira,Frente
+1164,1/16/14,Brew've Been Served,12.83,Stenig,Fusil
+1165,1/16/14,Guy's Gyros,13.48,Stenig,Fusil
+1166,1/16/14,Guy's Gyros,30.76,Stenig,Fusil
+1167,1/16/14,Abila Airport,1676.53,Benito,Hawelon
+1168,1/16/14,Nationwide Refinery,2047.28,Benito,Hawelon
+1169,1/16/14,Stewart and Sons Fabrication,860.3,Benito,Hawelon
+1170,1/16/14,Brew've Been Served,12.67,Kanon,Herrero
+1171,1/16/14,Shoppers' Delight,16.84,Kanon,Herrero
+1172,1/16/14,Brew've Been Served,19.9,Varja,Lagos
+1173,1/16/14,Guy's Gyros,8.31,Varja,Lagos
+1174,1/16/14,Katerina’s Café,34.02,Varja,Lagos
+1175,1/16/14,Abila Airport,3917.3,Henk,Mies
+1176,1/16/14,Abila Airport,3032.97,Henk,Mies
+1177,1/16/14,Brew've Been Served,17.44,Minke,Mies
+1178,1/16/14,Gelatogalore,10.62,Minke,Mies
+1179,1/16/14,Roberts and Sons,155.76,Minke,Mies
+1180,1/16/14,Carlyle Chemical Inc.,419.93,Valeria,Morlun
+1181,1/16/14,Carlyle Chemical Inc.,1814.24,Valeria,Morlun
+1182,1/16/14,Katerina’s Café,34.9,Valeria,Morlun
+1183,1/16/14,Nationwide Refinery,4742.67,Valeria,Morlun
+1184,1/16/14,Nationwide Refinery,1494.44,Cecilia,Morluniau
+1185,1/16/14,Stewart and Sons Fabrication,4543.31,Cecilia,Morluniau
+1186,1/16/14,Katerina’s Café,19.44,Adra,Nubarron
+1187,1/16/14,Abila Zacharo,64.71,Elsa,Orilla
+1188,1/16/14,Jack's Magical Beans,14.86,Elsa,Orilla
+1189,1/16/14,Ouzeri Elian,29.99,Elsa,Orilla
+1190,1/16/14,Hallowed Grounds,17.74,Kare,Orilla
+1191,1/16/14,Kalami Kafenion,11.83,Kare,Orilla
+1192,1/16/14,Katerina’s Café,34.58,Kare,Orilla
+1193,1/16/14,Gelatogalore,22.19,Hennie,Osvaldo
+1194,1/16/14,Hallowed Grounds,12.61,Hennie,Osvaldo
+1195,1/16/14,Katerina’s Café,10.84,Hennie,Osvaldo
+1196,1/16/14,Abila Zacharo,31.31,Bertrand,Ovan
+1197,1/16/14,Coffee Cameleon,7.19,Bertrand,Ovan
+1198,1/16/14,Katerina’s Café,14.34,Bertrand,Ovan
+1199,1/16/14,Abila Zacharo,8.43,Felix,Resumir
+1200,1/16/14,Guy's Gyros,28.27,Felix,Resumir
+1201,1/16/14,Abila Scrapyard,1897.05,Dylan,Scozzese
+1202,1/16/14,Abila Airport,3138.98,Dylan,Scozzese
+1203,1/16/14,Jack's Magical Beans,12.56,Orhan,Strum
+1204,1/16/14,Guy's Gyros,31.31,Brand,Tempestad
+1205,1/16/14,Katerina’s Café,11.08,Brand,Tempestad
+1206,1/16/14,Brew've Been Served,4.7,Edvard,Vann
+1207,1/16/14,Guy's Gyros,37.8,Edvard,Vann
+1208,1/16/14,Brew've Been Served,8.18,Isia,Vann
+1209,1/16/14,Hippokampos,18.18,Isia,Vann
+1210,1/16/14,Roberts and Sons,240.66,Isia,Vann
+1211,1/16/14,Gelatogalore,12.33,Willem,Vasco-Pais
+1212,1/16/14,Jack's Magical Beans,6.95,Willem,Vasco-Pais
+1213,1/17/14,Hallowed Grounds,9.4,Lucas,Alcazar
+1214,1/17/14,Ouzeri Elian,35.81,Lucas,Alcazar
+1215,1/17/14,Bean There Done That,19.67,Lars,Azada
+1216,1/17/14,Bean There Done That,8.21,Felix,Balas
+1217,1/17/14,Gelatogalore,23.23,Felix,Balas
+1218,1/17/14,Hippokampos,12.86,Felix,Balas
+1219,1/17/14,Brewed Awakenings,8.16,Ingrid,Barranco
+1220,1/17/14,Guy's Gyros,8.64,Ingrid,Barranco
+1221,1/17/14,Hippokampos,11.93,Ingrid,Barranco
+1222,1/17/14,Jack's Magical Beans,7.57,Isak,Baza
+1223,1/17/14,Ouzeri Elian,38.6,Isak,Baza
+1224,1/17/14,Coffee Cameleon,6.81,Linnea,Bergen
+1225,1/17/14,Kalami Kafenion,140.78,Linnea,Bergen
+1226,1/17/14,Katerina’s Café,19.09,Linnea,Bergen
+1227,1/17/14,Brew've Been Served,3.09,Loreto,Bodrogi
+1228,1/17/14,Guy's Gyros,39.14,Loreto,Bodrogi
+1229,1/17/14,Guy's Gyros,8.54,Loreto,Bodrogi
+1230,1/17/14,Brewed Awakenings,8.69,Isande,Borrasca
+1231,1/17/14,Chostus Hotel,119.62,Isande,Borrasca
+1232,1/17/14,Hippokampos,8.92,Isande,Borrasca
+1233,1/17/14,Hallowed Grounds,14.58,Nils,Calixto
+1234,1/17/14,Katerina’s Café,32.13,Nils,Calixto
+1235,1/17/14,Bean There Done That,19.56,Axel,Calzas
+1236,1/17/14,Hippokampos,10.14,Axel,Calzas
+1237,1/17/14,Abila Zacharo,8.78,Ada,Campo-Corrente
+1238,1/17/14,Brewed Awakenings,6,Ada,Campo-Corrente
+1239,1/17/14,Hippokampos,14.93,Ada,Campo-Corrente
+1240,1/17/14,Albert's Fine Clothing,39.41,Gustav,Cazar
+1241,1/17/14,Bean There Done That,18.72,Gustav,Cazar
+1242,1/17/14,Katerina’s Café,13.11,Gustav,Cazar
+1243,1/17/14,General Grocer,78.03,Hideki,Cocinaro
+1244,1/17/14,Kalami Kafenion,27.73,Hideki,Cocinaro
+1245,1/17/14,Hallowed Grounds,18.6,Lidelse,Dedos
+1246,1/17/14,Kalami Kafenion,20.02,Lidelse,Dedos
+1247,1/17/14,Brew've Been Served,15.46,Inga,Ferro
+1248,1/17/14,Gelatogalore,34.59,Inga,Ferro
+1249,1/17/14,Guy's Gyros,8.31,Inga,Ferro
+1250,1/17/14,Brew've Been Served,12.56,Sven,Flecha
+1251,1/17/14,Shoppers' Delight,155.01,Sven,Flecha
+1252,1/17/14,Hallowed Grounds,15.98,Birgitta,Frente
+1253,1/17/14,Hippokampos,28.35,Birgitta,Frente
+1254,1/17/14,Abila Zacharo,21.21,Vira,Frente
+1255,1/17/14,Bean There Done That,5.77,Vira,Frente
+1256,1/17/14,Coffee Cameleon,9.16,Stenig,Fusil
+1257,1/17/14,Guy's Gyros,19.68,Stenig,Fusil
+1258,1/17/14,Hippokampos,15.77,Stenig,Fusil
+1259,1/17/14,Brew've Been Served,11.04,Kanon,Herrero
+1260,1/17/14,Shoppers' Delight,269.33,Kanon,Herrero
+1261,1/17/14,Brew've Been Served,13.66,Varja,Lagos
+1262,1/17/14,Guy's Gyros,22.18,Varja,Lagos
+1263,1/17/14,Guy's Gyros,37.55,Varja,Lagos
+1264,1/17/14,Guy's Gyros,15.4,Minke,Mies
+1265,1/17/14,Katerina’s Café,35.52,Minke,Mies
+1266,1/17/14,Stewart and Sons Fabrication,1753.17,Cecilia,Morluniau
+1267,1/17/14,Abila Zacharo,14.51,Adra,Nubarron
+1268,1/17/14,Coffee Cameleon,14.57,Adra,Nubarron
+1269,1/17/14,Katerina’s Café,38.21,Adra,Nubarron
+1270,1/17/14,Hallowed Grounds,3.25,Marin,Onda
+1271,1/17/14,Katerina’s Café,21.22,Marin,Onda
+1272,1/17/14,Hippokampos,52.31,Elsa,Orilla
+1273,1/17/14,Jack's Magical Beans,19.11,Elsa,Orilla
+1274,1/17/14,Ouzeri Elian,10.21,Elsa,Orilla
+1275,1/17/14,Gelatogalore,21.62,Kare,Orilla
+1276,1/17/14,Hallowed Grounds,18.22,Kare,Orilla
+1277,1/17/14,Katerina’s Café,22.18,Kare,Orilla
+1278,1/17/14,Brew've Been Served,16.62,Hennie,Osvaldo
+1279,1/17/14,Katerina’s Café,27.49,Hennie,Osvaldo
+1280,1/17/14,Coffee Cameleon,10.27,Bertrand,Ovan
+1281,1/17/14,Katerina’s Café,21.01,Bertrand,Ovan
+1282,1/17/14,Brew've Been Served,5.29,Felix,Resumir
+1283,1/17/14,Guy's Gyros,16.83,Felix,Resumir
+1284,1/17/14,Abila Zacharo,15.95,Sten,Sanjorge Jr.
+1285,1/17/14,Hallowed Grounds,9.72,Sten,Sanjorge Jr.
+1286,1/17/14,Gelatogalore,15.84,Orhan,Strum
+1287,1/17/14,Brew've Been Served,12.3,Brand,Tempestad
+1288,1/17/14,Chostus Hotel,114.22,Brand,Tempestad
+1289,1/17/14,Guy's Gyros,29.71,Brand,Tempestad
+1290,1/17/14,Brew've Been Served,19.39,Edvard,Vann
+1291,1/17/14,Guy's Gyros,35.1,Edvard,Vann
+1292,1/17/14,Hippokampos,14.57,Edvard,Vann
+1293,1/17/14,Abila Zacharo,39.67,Isia,Vann
+1294,1/17/14,Brew've Been Served,10.52,Isia,Vann
+1295,1/17/14,Hippokampos,38.19,Willem,Vasco-Pais
+1296,1/17/14,Kalami Kafenion,25.32,Willem,Vasco-Pais
+1297,1/18/14,Abila Zacharo,16.59,Lucas,Alcazar
+1298,1/18/14,Kronos Mart,194.51,Lucas,Alcazar
+1299,1/18/14,Ouzeri Elian,21.56,Lucas,Alcazar
+1300,1/18/14,Hippokampos,72.5,Lars,Azada
+1301,1/18/14,Frank's Fuel,52.66,Felix,Balas
+1302,1/18/14,Kalami Kafenion,11.14,Felix,Balas
+1303,1/18/14,Katerina’s Café,96.36,Ingrid,Barranco
+1304,1/18/14,Ouzeri Elian,57.63,Isak,Baza
+1305,1/18/14,Abila Zacharo,18.45,Linnea,Bergen
+1306,1/18/14,Roberts and Sons,62.47,Linnea,Bergen
+1307,1/18/14,Kalami Kafenion,10.48,Loreto,Bodrogi
+1308,1/18/14,Katerina’s Café,9.72,Loreto,Bodrogi
+1309,1/18/14,Abila Zacharo,73.25,Isande,Borrasca
+1310,1/18/14,Roberts and Sons,239.65,Isande,Borrasca
+1311,1/18/14,Katerina’s Café,8.14,Nils,Calixto
+1312,1/18/14,Frydos Autosupply n' More,103.55,Axel,Calzas
+1313,1/18/14,Hippokampos,20.11,Axel,Calzas
+1314,1/18/14,Hippokampos,63.21,Ada,Campo-Corrente
+1315,1/18/14,Kalami Kafenion,42.36,Ada,Campo-Corrente
+1316,1/18/14,Kronos Mart,150.36,Ada,Campo-Corrente
+1317,1/18/14,Kalami Kafenion,24.14,Gustav,Cazar
+1318,1/18/14,Frydos Autosupply n' More,281.54,Lidelse,Dedos
+1319,1/18/14,Guy's Gyros,27.4,Lidelse,Dedos
+1320,1/18/14,Katerina’s Café,22.74,Lidelse,Dedos
+1321,1/18/14,Katerina’s Café,37.21,Inga,Ferro
+1322,1/18/14,Ahaggo Museum,120.2,Sven,Flecha
+1323,1/18/14,Guy's Gyros,31.48,Sven,Flecha
+1324,1/18/14,Guy's Gyros,47.89,Birgitta,Frente
+1325,1/18/14,Roberts and Sons,266.69,Birgitta,Frente
+1326,1/18/14,Albert's Fine Clothing,35.66,Vira,Frente
+1327,1/18/14,Hippokampos,27.21,Vira,Frente
+1328,1/18/14,Ouzeri Elian,33.57,Vira,Frente
+1329,1/18/14,Guy's Gyros,39.68,Varja,Lagos
+1330,1/18/14,Katerina’s Café,19.3,Varja,Lagos
+1331,1/18/14,Kronos Mart,87.66,Varja,Lagos
+1332,1/18/14,Katerina’s Café,33.41,Minke,Mies
+1333,1/18/14,Katerina’s Café,33.63,Marin,Onda
+1334,1/18/14,Ahaggo Museum,55.55,Elsa,Orilla
+1335,1/18/14,Hippokampos,49.21,Elsa,Orilla
+1336,1/18/14,General Grocer,177.6,Bertrand,Ovan
+1337,1/18/14,Katerina’s Café,76.1,Bertrand,Ovan
+1338,1/18/14,Ouzeri Elian,53.36,Bertrand,Ovan
+1339,1/18/14,General Grocer,108.49,Felix,Resumir
+1340,1/18/14,Kalami Kafenion,53.36,Felix,Resumir
+1341,1/18/14,Chostus Hotel,600,Sten,Sanjorge Jr.
+1342,1/18/14,Katerina’s Café,14.22,Sten,Sanjorge Jr.
+1343,1/18/14,Abila Zacharo,111.93,Orhan,Strum
+1344,1/18/14,Albert's Fine Clothing,226.49,Orhan,Strum
+1345,1/18/14,Shoppers' Delight,258.33,Orhan,Strum
+1346,1/18/14,Abila Zacharo,21.29,Edvard,Vann
+1347,1/18/14,Katerina’s Café,19.31,Isia,Vann
+1348,1/18/14,Frydos Autosupply n' More,120.67,Willem,Vasco-Pais
+1349,1/18/14,Hippokampos,53.21,Willem,Vasco-Pais
+1350,1/18/14,Kalami Kafenion,38.91,Willem,Vasco-Pais
+1351,1/19/14,Hippokampos,78.96,Lars,Azada
+1352,1/19/14,Hippokampos,101.25,Felix,Balas
+1353,1/19/14,Desafio Golf Course,145.72,Ingrid,Barranco
+1354,1/19/14,Ouzeri Elian,67.98,Isak,Baza
+1355,1/19/14,Guy's Gyros,20.94,Loreto,Bodrogi
+1356,1/19/14,Albert's Fine Clothing,254.29,Isande,Borrasca
+1357,1/19/14,Katerina’s Café,34.03,Nils,Calixto
+1358,1/19/14,Hippokampos,11.56,Axel,Calzas
+1359,1/19/14,Desafio Golf Course,190.91,Ada,Campo-Corrente
+1360,1/19/14,Hippokampos,48.23,Ada,Campo-Corrente
+1361,1/19/14,Guy's Gyros,36.87,Hideki,Cocinaro
+1362,1/19/14,Katerina’s Café,33.79,Lidelse,Dedos
+1363,1/19/14,Guy's Gyros,65.21,Sven,Flecha
+1364,1/19/14,Ouzeri Elian,45.32,Sven,Flecha
+1365,1/19/14,Katerina’s Café,38.9,Birgitta,Frente
+1366,1/19/14,Gelatogalore,22.36,Vira,Frente
+1367,1/19/14,General Grocer,70.22,Vira,Frente
+1368,1/19/14,Hippokampos,46.32,Vira,Frente
+1369,1/19/14,Guy's Gyros,40.36,Stenig,Fusil
+1370,1/19/14,Frydos Autosupply n' More,56.09,Varja,Lagos
+1371,1/19/14,Guy's Gyros,58.35,Varja,Lagos
+1372,1/19/14,Ouzeri Elian,23.65,Varja,Lagos
+1373,1/19/14,Guy's Gyros,31.94,Minke,Mies
+1374,1/19/14,Katerina’s Café,26.76,Minke,Mies
+1375,1/19/14,Albert's Fine Clothing,274.66,Adra,Nubarron
+1376,1/19/14,Shoppers' Delight,30.39,Adra,Nubarron
+1377,1/19/14,Ahaggo Museum,26.91,Elsa,Orilla
+1378,1/19/14,Guy's Gyros,23.21,Elsa,Orilla
+1379,1/19/14,Frydos Autosupply n' More,98.04,Hennie,Osvaldo
+1380,1/19/14,Katerina’s Café,12.25,Bertrand,Ovan
+1381,1/19/14,Abila Zacharo,47.8,Felix,Resumir
+1382,1/19/14,Guy's Gyros,39.6,Felix,Resumir
+1383,1/19/14,Desafio Golf Course,148.22,Sten,Sanjorge Jr.
+1384,1/19/14,Guy's Gyros,25.79,Sten,Sanjorge Jr.
+1385,1/19/14,Desafio Golf Course,150.07,Orhan,Strum
+1386,1/19/14,Hippokampos,45.32,Orhan,Strum
+1387,1/19/14,Guy's Gyros,37.48,Brand,Tempestad
+1388,1/19/14,Frydos Autosupply n' More,209.76,Edvard,Vann
+1389,1/19/14,Katerina’s Café,70.22,Edvard,Vann
+1390,1/19/14,Guy's Gyros,18.08,Isia,Vann
+1391,1/19/14,Katerina’s Café,35.01,Isia,Vann
+1392,1/19/14,Desafio Golf Course,110.02,Willem,Vasco-Pais
+1393,1/19/14,Hippokampos,63.17,Willem,Vasco-Pais

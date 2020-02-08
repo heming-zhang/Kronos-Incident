@@ -11,6 +11,16 @@ ret = db.query(Article).first()
 print(ret.timestamp)
 
 
+
+# engine = create_engine("mysql+pymysql://root:Root2021@@127.0.0.1:3306/pok")
+# Base = automap_base()
+# Base.prepare(engine, reflect = True)
+# db = sessionmaker(bind = engine)()
+# Article = Base.classes.email
+# ret = db.query(Article).first()
+# print(ret.emailto)
+
+
 # from flask import Flask, url_for, redirect, render_template
 # from flask_sqlalchemy import SQLAlchemy
 # import config
