@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <title>Test Page</title>
+    <link rel = "stylesheet" href = "{{ url_for('static', filename = 'css/style.css') }}" />
+</head>
+<body>
+    <h1>Search Page</h1>
+    {% for gps_record in gps_record_list %}
+        <p>latitude: {{ gps_record.latitude }}</p>
+        <p>longtitude: {{ gps_record.longtitude }}</p>
+    {% endfor %}
+</body>
+</html>
