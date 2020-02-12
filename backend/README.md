@@ -10,6 +10,10 @@ virtualenv venv
 python3 app.py
 ```
 
+venv -> (venv)flask -> x need flask to run python3 app.py;
+pip3 install flask on machine -> python3 app.py
+
+
 ### 1.1 python3, pip3
 ```
 $ python3 --version
@@ -25,6 +29,7 @@ $ source venv/bin/activate
 
 ### 1.3 flask installation
 ```
+# if install flask, you dont need source activate
 $ sudo pip3 install Flask
 ```
 

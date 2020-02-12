@@ -2,6 +2,16 @@
 
 > A Vue.js project
 
+## Build on Server
+```
+$ cd frontend
+$ npm install
+$ npm run build 
+# help you generate a dist directory in frontend
+$ cp -r dist/ /var/www/html
+# you may rename the 'dist' directory
+```
+
 ## Build Setup
 
 ``` bash
