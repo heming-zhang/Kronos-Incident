@@ -73,9 +73,12 @@ def search_gps():
     gps_record_list = []
     for result in result_list:
         gps_record = {"timestamp" : result.gps.timestamp,
-                    "latitude" : result.gps.latitude, 
-                    "longtitude" : result.gps.longtitude}
+                    "firstname" : result.car_assignments.firstname,
+                    "lastname" : result.car_assignments.lastname,
+                    "latitude" : float(result.gps.latitude), 
+                    "longtitude" : float(result.gps.longtitude)}
         gps_record_list.append(gps_record)
+    # return gps_record_list
     return jsonify(gps_record_list)
 
 
@@ -103,8 +106,8 @@ def hello_world():
 
 @app.route('/search/', methods=['GET','POST'])
 def search():
-    firstname = request.form.get("firstname")
-    lastname = request.form.get("lastname")
+    firstname = "Isia"
+    lastname = "Vann"
     time_start = "2014-01-06 08:00"
     time_end = "2014-01-06 17:00"
     engine = create_engine(patterns_conn)

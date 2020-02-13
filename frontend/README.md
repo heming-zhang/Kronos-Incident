@@ -12,6 +12,9 @@ $ cp -r dist/ /var/www/html
 # you may rename the 'dist' directory
 ```
 
+## Configuration about
+* static with d3.js
+
 ## Build Setup
 
 ``` bash

@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import SearchGps from '@/components/SearchGps'
+import GpsCanvas from '@/components/GpsCanvas'
+
 
 Vue.use(Router)
 
@@ -8,8 +10,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'SearchGps',
+      component: SearchGps
+    },
+    {
+      path: '/GpsCanvas',
+      name: 'GpsCanvas',
+      component: GpsCanvas
     }
   ]
 })
