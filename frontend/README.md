@@ -1,43 +1,35 @@
-# frontend
+# Kronos Frontend Instructions
 
-> A Vue.js project
-
-## Build on Server
+## 1 Develop on Local Machine
+### 1.1 Install Vue-cli and Node_Modules
+``` bash
+$ npm install -g vue-cli
+$ vue init webpack my-project
+$ cd my-project
+$ npm install
+$ npm run dev
 ```
+### 1.2 Cross-Domain Request
+* Find in "build/webpack.dev.conf.js"
+* Need to look into "/config/index.js" to modify config
+* Modify proxy-table as:
+``` javascript
+proxyTable: {
+      '/api': {
+        target: 'http://localhost:5000',
+        pathRewrite: {'^/api': ''}
+      }
+    }
+```
+* Hence, all of request from frontend to backend will via "api/..." url
+
+## 2 Build on Server
+``` bash
 $ cd frontend
 $ npm install
 $ npm run build 
 # help you generate a dist directory in frontend
 $ cp -r dist/ /var/www/html
-# you may rename the 'dist' directory
+# you may want to rename the 'dist' directory for production mode
 ```
-
-## Configuration about
-* static with d3.js
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

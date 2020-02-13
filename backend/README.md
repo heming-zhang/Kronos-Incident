@@ -1,21 +1,16 @@
-# testdemo (flask running test)
+# Flask Instruction
 
-## 1. Environment Setting(local machine / Remote Server)
+## 1. Environment Setting(Local Machine / Remote Server)
 * Local Machine: macOS Catalina 10.15.3
 * Remote Server: AWS Ubuntu Server 18.04 LTS (HVM), SSD Volume Type 
 
-### 1.0 If you get all installation with a package venv, just
-```
-virtualenv venv
-python3 app.py
-```
-
-venv -> (venv)flask -> x need flask to run python3 app.py;
-pip3 install flask on machine -> python3 app.py
+### 1.0 Two approaches for running(Introduction for 1st method)
+* venv -> (venv)flask -> dont need to install flask to run python3 app.py;
+* pip3 install flask on machine -> python3 app.py
 
 
 ### 1.1 python3, pip3
-```
+``` bash
 $ python3 --version
 $ pip3 --version
 ```
@@ -47,7 +42,7 @@ sudo pip3 install flask_sqlalchemy
 ```
 
 ## 2 Data Processing (On Local Machine)
-### 2.0 Import .csv files into MySQL database (on local machine)
+### 2.0 Import .csv files into MySQL database (on Local Machine)
 ```
 mysql> create database pok_origin;
 mysql> create database pok; 
@@ -71,7 +66,7 @@ mysql> create database patterns;
     * Choose 'autoid' as primary key
     * **Modidy** the table name 'car-assignments' to 'car_assignments'
 
-### 2.1 Parse and Export Original Database (on local machine)
+### 2.1 Parse and Export Original Database (on Local Machine)
 * Protectors of Kronos Data Wrangling
     * Following command lines will parse articles into structured data and store them in pok database and local directory.
     * It can also give you a static social network from the given data from email headers.csv
@@ -81,7 +76,7 @@ $ mkdir A1_analysis
 $ python3 pok_main.py
 ```
 
-### 2.2 Convert sql tables into regularized ORM mode (local machine)
+### 2.2 Convert sql tables into regularized ORM mode (Local Machine)
 ```
 $ python3 pok_db_reg.py
 $ python3 patterns_db_reg.py
@@ -90,7 +85,7 @@ $ python3 patterns_db_reg.py
 * Export those tables to 'pok.sql' and 'patterns.sql'
 * Change encode rules in .sql files for create table to 'utf8mb4_general_ci'
 
-### 2.3 Use .sql sentence to generate tables in remote server (local machine / remote server)
+### 2.3 Use .sql sentence to generate tables in remote server (Local Machine / Remote Server)
 ```
 $ mysql -u root -p pok < ./sql/pok.sql
 $ mysql -u root -p patterns < ./sql/patterns.sql
@@ -99,10 +94,3 @@ $ mysql -u root -p patterns < ./sql/patterns.sql
 ## 3 Manipulate Data with ORM - sqlalchemy
 ### 3.1 Reflect tables in database with engine
 Since we have used sqlalchemy to build orm, we just need reflect them back.
-
-## 4 Environment Settiing for Front-end
-* A [guide](http://vuejs-templates.github.io/webpack/) for first installation and [docs for vue-loader](https://vue-loader-v14.vuejs.org/) for future usage.
-### 4.1 Run the Front-end Framework
-
-
-
