@@ -1,4 +1,4 @@
-# Kronos Frontend Instructions
+# Vue.js Instructions
 
 ## 1 Develop on Local Machine
 ### 1.1 Install Vue-cli and Node_Modules
