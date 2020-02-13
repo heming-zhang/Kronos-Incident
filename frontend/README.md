@@ -4,8 +4,8 @@
 ### 1.1 Install Vue-cli and Node_Modules
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack my-project
-$ cd my-project
+$ vue init webpack frontend
+$ cd frontend
 $ npm install
 $ npm run dev
 ```
