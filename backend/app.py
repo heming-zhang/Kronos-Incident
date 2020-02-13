@@ -46,16 +46,12 @@ def init_time():
 
 @app.route('/search_gps', methods=['GET','POST'])
 def search_gps():
-    
     firstname = request.args.get("firstname")
     lastname = request.args.get("lastname")
-
     time_start = request.args.get("time_start")
     time_end = request.args.get("time_end")
     time_start = datetime.strptime(time_start, "%y-%m-%d %H:%M")
     time_end = datetime.strptime(time_end, "%y-%m-%d %H:%M")
-    print(time_start)
-    print(time_end)
 
     engine = create_engine(patterns_conn)
     Base = automap_base()
@@ -64,24 +60,35 @@ def search_gps():
     Gps = Base.classes.gps
     Car_assignments = Base.classes.car_assignments
 
-    # search gps data with certain name
-    result_list = (db.query(Car_assignments, Gps)
-                .join(Car_assignments, Car_assignments.carid == Gps.id)
-                .filter_by(firstname = firstname)
-                .filter_by(lastname = lastname)
-                .filter(Gps.timestamp.between(time_start, time_end)))
-    gps_record_list = []
-    for result in result_list:
-        gps_record = {"timestamp" : result.gps.timestamp,
-                    "firstname" : result.car_assignments.firstname,
-                    "lastname" : result.car_assignments.lastname,
-                    "latitude" : float(result.gps.latitude), 
-                    "longtitude" : float(result.gps.longtitude)}
-        gps_record_list.append(gps_record)
-    # return gps_record_list
+    if((len(firstname) != 0 ) and (len(lastname) != 0)):
+        # search gps data with certain name
+        result_list = (db.query(Car_assignments, Gps)
+                    .join(Car_assignments, Car_assignments.carid == Gps.id)
+                    .filter_by(firstname = firstname)
+                    .filter_by(lastname = lastname)
+                    .filter(Gps.timestamp.between(time_start, time_end)))
+        gps_record_list = []
+        for result in result_list:
+            gps_record = {"timestamp" : result.gps.timestamp,
+                        "firstname" : result.car_assignments.firstname,
+                        "lastname" : result.car_assignments.lastname,
+                        "latitude" : float(result.gps.latitude), 
+                        "longtitude" : float(result.gps.longtitude)}
+            gps_record_list.append(gps_record)
+    else:
+        result_list = (db.query(Car_assignments, Gps)
+                    .join(Car_assignments, Car_assignments.carid == Gps.id)
+                    .filter(Gps.timestamp.between(time_start, time_end)))
+        gps_record_list = []
+        for result in result_list:
+            gps_record = {"timestamp" : result.gps.timestamp,
+                        "firstname" : result.car_assignments.firstname,
+                        "lastname" : result.car_assignments.lastname,
+                        "latitude" : float(result.gps.latitude), 
+                        "longtitude" : float(result.gps.longtitude)}
+            gps_record_list.append(gps_record)
     return jsonify(gps_record_list)
-
-
+    
 
 
 
