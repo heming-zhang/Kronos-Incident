@@ -176,6 +176,7 @@ export default {
       return countedWords;
     },
 
+
     draw_word_cloud: function(card_info){
       var delete_svg = document.getElementById("word")
       if(delete_svg != null){
@@ -225,7 +226,6 @@ export default {
         });
       layout.start();
     },
-
 
 
     histplot: function(present){
@@ -304,8 +304,6 @@ export default {
           .style("fill", "#8A2BE2")
           .text(title);
     },
-
-
 
 
     render: function(){
