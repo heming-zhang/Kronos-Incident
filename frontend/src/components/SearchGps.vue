@@ -158,9 +158,75 @@ export default {
         this.slot_info = res_date.data;
         let present = "14/1/" + this.start_date
         this.render();
-        this.histplot(present);
+        setTimeout(this.histplot, 3000, present);
+        this.draw_word_cloud(this.card_info);
       }
     },
+
+    count_word: function(myWords){
+      var countedWords = myWords.reduce(function (allWords, word) { 
+        if (word in allWords) {
+          allWords[word]++;
+        }
+        else {
+          allWords[word] = 1;
+        }
+        return allWords;
+      }, {});
+      return countedWords;
+    },
+
+    draw_word_cloud: function(card_info){
+      var delete_svg = document.getElementById("word")
+      if(delete_svg != null){
+        delete_svg.remove();
+      }
+      var location_word = [];
+      for(let i= 0; i < card_info.length; i ++){
+        location_word.push(card_info[i].location);
+      }
+      var myWords = location_word;
+      var newWords = this.count_word(myWords);
+
+      var wordset = [];
+      Object.keys(newWords).forEach(function(key){
+        wordset.push({'word': key, 'size': newWords[key]})
+      })
+
+      var margin = {top: 10, right: 10, bottom: 10, left: 10};
+      var cloud_width = 450 - margin.left - margin.right;
+      var cloud_height = 260 - margin.top - margin.bottom;
+
+      var svg = d3.select("#wordcloud").append("svg")
+        .attr("width", cloud_width + margin.left + margin.right)
+        .attr("height", cloud_height + margin.top + margin.bottom)
+        .attr("id", "word")
+        .append("g")
+        .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+    
+      var layout = d3.layout.cloud()
+        .size([cloud_width, cloud_height])
+        .words(wordset.map(function(d) {return {text: d.word, size:d.size}; }))
+        .padding(10)
+        .fontSize(function(d) { return d.size; })
+        .on("end", function(words){
+          svg.append("g")
+          .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+          .selectAll("text")
+          .data(words)
+          .enter().append("text")
+          .style("font-size", function(d) {return d.size + "px"; })
+          .attr("text-anchor", "middle")
+          .attr("transform", function(d) {
+            return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+          })
+          .text(function(d) { return d.text; });
+        });
+      layout.start();
+    },
+
+
 
     histplot: function(present){
       var delete_svg = document.getElementById("hist")
@@ -171,7 +237,7 @@ export default {
       histset = this.slot_info;
 
       let title = present + " " + "GPS Track distribution"
-      var margin = {top: 10, right: 30, bottom: 30, left: 40}
+      var margin = {top: 50, right: 40, bottom: 50, left: 60}
       var width = 600 - margin.left - margin.right;
       var height = 320 - margin.top - margin.bottom;
       var binwidth = width/12;
@@ -192,6 +258,7 @@ export default {
         .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
+        .attr("id", "hist")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
         
@@ -234,6 +301,7 @@ export default {
           .attr("transform", "translate(" + (width / 2) + " ," + (-20) + ")")
           //.attr("dy", "1em")
           .attr("text-anchor", "middle")
+          .style("fill", "#8A2BE2")
           .text(title);
     },
 
@@ -258,8 +326,10 @@ export default {
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
-                return "<span style='color:violet'>" + d.firstname + " " + d.lastname + 
-                "</span><br>TimeStamp:<span style='color:pink'>" + d.timestamp
+                return "<div style = 'background-color:black; opacity:0.8; color: #fff;border-radius: 2px; " 
+                + "line-height: 1;font-weight: bold; padding: 12px;' > " 
+                + "<span style='color:violet'>" + d.firstname + " " + d.lastname 
+                + "</span><br>TimeStamp:<span style='color:pink'>" + d.timestamp + "</div>"
         })
 
       let x = d3.scaleLinear()
@@ -400,9 +470,8 @@ a {
     line-height: 1;
     font-weight: bold;
     padding: 12px;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    border-radius: 2px;
-    z-index: 1;
-  }
+} 
+
+
+
 </style>
