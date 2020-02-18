@@ -111,6 +111,23 @@ export default {
   },
 
   methods: {
+
+    searchTime: async function(d){
+      let time1 = "14-1-" + start_date + " " + d.slot -2 + ":0";
+      let time2 = "14-1-" + start_date + " " + d.slot + ":0";
+      const res = await axios.get('api/search_gps', {
+        params: {
+          firstname: "",
+          lastname: "",
+          time_start: time1,
+          time_end: time2
+          }
+        }
+      );
+      console.log(1);
+    },
+
+    // async function to wait axios 
     searchRange: async function(){
       if(this.start_date == ""){
         alert("Please Input Date");
@@ -156,9 +173,9 @@ export default {
         this.gps_info = res.data;
         this.card_info = res_card.data;
         this.slot_info = res_date.data;
-        let present = "14/1/" + this.start_date
+        let present = "14/1/" + this.start_date;
         this.render();
-        setTimeout(this.histplot, 3000, present);
+        setTimeout(this.histplot, 3000, present, this.start_date);
         this.draw_word_cloud(this.card_info);
       }
     },
@@ -188,6 +205,7 @@ export default {
       }
       var myWords = location_word;
       var newWords = this.count_word(myWords);
+      var sum_count = 0;
 
       var wordset = [];
       Object.keys(newWords).forEach(function(key){
@@ -195,12 +213,12 @@ export default {
       })
 
       var margin = {top: 10, right: 10, bottom: 10, left: 10};
-      var cloud_width = 450 - margin.left - margin.right;
-      var cloud_height = 260 - margin.top - margin.bottom;
+      var cloud_width = 500 - margin.left - margin.right;
+      var cloud_height = 320 - margin.top - margin.bottom;
 
       var svg = d3.select("#wordcloud").append("svg")
-        .attr("width", cloud_width + margin.left + margin.right)
-        .attr("height", cloud_height + margin.top + margin.bottom)
+        .attr("width", cloud_width)
+        .attr("height", cloud_height)
         .attr("id", "word")
         .append("g")
         .attr("transform",
@@ -208,7 +226,7 @@ export default {
     
       var layout = d3.layout.cloud()
         .size([cloud_width, cloud_height])
-        .words(wordset.map(function(d) {return {text: d.word, size:d.size}; }))
+        .words(wordset.map(function(d) { return {text: d.word, size:d.size}; }))
         .padding(10)
         .fontSize(function(d) { return d.size; })
         .on("end", function(words){
@@ -217,7 +235,32 @@ export default {
           .selectAll("text")
           .data(words)
           .enter().append("text")
-          .style("font-size", function(d) {return d.size + "px"; })
+          .style("font-size", function(d) {
+            if(d.size < 10){
+              return 20 + "px";
+            }else if(d.size < 20){
+              return 30 + "px";
+            }else if(d.size < 30){
+              return 40 + "px";
+            }else{
+              return 60 + "px";
+            };
+          })
+          .style("fill", function(){
+            return "hsl(" + Math.random() * 360 + ", 100%, 50%)";
+          })
+          .style("opacity", function(d){
+            if(d.size < 10){
+              return 0.5;
+            }else if(d.size < 20){
+              return 0.65;
+            }else if(d.size < 30){
+              return 0.9;
+            }else{
+              return 1;
+            };
+          })
+          .attr("font-weight", "bold")
           .attr("text-anchor", "middle")
           .attr("transform", function(d) {
             return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
@@ -228,7 +271,7 @@ export default {
     },
 
 
-    histplot: function(present){
+    histplot: function(present, start_date){
       var delete_svg = document.getElementById("hist")
       if(delete_svg != null){
         delete_svg.remove();
@@ -271,6 +314,9 @@ export default {
         .attr("width", binwidth)
         .attr("y", function(d) { return yScale(d.number); })
         .attr("height", function(d) { return height - yScale(d.number); })
+        .on("click", function(d){
+          this.searchTime(d);
+        })
         
       svg.append("g")
         .attr("transform", "translate(0," + height + ")")
