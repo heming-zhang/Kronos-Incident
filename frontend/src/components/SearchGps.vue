@@ -1,7 +1,7 @@
 <template>
   <div>
     <div id = "headimg">
-      <img width="400px" height="100px"  src = "../../static/img/kronos.jpg">
+      <img width="400px" height="100px"  src = "../../static/img/Kronos.jpg">
     </div>
     <div id="search">
       <div id="name-search">
