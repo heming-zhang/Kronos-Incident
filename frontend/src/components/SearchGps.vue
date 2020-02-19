@@ -116,9 +116,9 @@ export default {
 
   mounted() {
     // generate page when first load
-    axios.get("/api/init_person")
+    axios.get("localhost:5000/init_person")
           .then(response => (this.personal_info = response.data));
-    axios.get("/api/init_time")
+    axios.get("localhost:5000/init_time")
           .then(response => (this.time_info = response.data));
   },
 
@@ -127,7 +127,7 @@ export default {
     searchTime: async function(d){
       let time1 = "14-1-" + start_date + " " + d.slot -2 + ":0";
       let time2 = "14-1-" + start_date + " " + d.slot + ":0";
-      const res = await axios.get('api/search_gps', {
+      const res = await axios.get('localhost:5000/search_gps', {
         params: {
           firstname: "",
           lastname: "",
@@ -157,7 +157,7 @@ export default {
           firstname = this.name.split(' ', 1)[0];
           lastname = this.name.slice(this.name.indexOf(' ')+1);
         }
-        const res = await axios.get('api/search_gps', {
+        const res = await axios.get('localhost:5000/search_gps', {
           params: {
             firstname: firstname,
             lastname: lastname,
@@ -166,7 +166,7 @@ export default {
             }
           }
         );
-        const res_card = await axios.get('api/search_card', {
+        const res_card = await axios.get('localhost:5000/search_card', {
           params: {
             firstname: firstname,
             lastname: lastname,
@@ -175,7 +175,7 @@ export default {
             }
           }
         );
-        const res_date = await axios.get('api/search_hist', {
+        const res_date = await axios.get('localhost:5000/search_hist', {
           params: {
               time_start: time_start
             }
