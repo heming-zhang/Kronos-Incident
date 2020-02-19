@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>Kronos Incident</h1>
+    <div id = "headimg">
+      <img width="400px" height="100px"  src = "../../static/img/kronos.jpg">
+    </div>
     <div id="search">
       <div id="name-search">
         <strong>Name:</strong>
@@ -53,6 +55,11 @@
       </ul> -->
        <table style="width:100%">
         <tr>
+          <th colspan="5">
+            <strong>Creadit and Loyalty Card Data Information</strong>
+          </th>
+        </tr>
+        <tr>
           <th>Type</th>
           <th>Location</th>
           <th>Time</th>
@@ -74,6 +81,11 @@
     </div>
     <div id = "bottom">
     </div>
+    <!-- <div id = "video">
+       <iframe height="360" width="600"
+        src="https://www.youtube.com/embed/FtLj8WUcqow/autoplay=1"> 
+      </iframe> 
+    </div> -->
   </div>
 </template>
 
@@ -279,6 +291,15 @@ export default {
       let histset = [];
       histset = this.slot_info;
 
+      let tip = d3.tip()
+        .attr('class', 'd3-tip')
+        .offset([-20, 0])
+        .html(function(d) {
+                return "<div style = 'background-color:black; opacity:0.8; color: #fff;border-radius: 2px; " 
+                + "font-weight: bold; padding: 2px;' > " 
+                + "</span><br>GPS Tracks:<span style='color:white'>" + d.number + "</div>"
+        })
+
       let title = present + " " + "GPS Track distribution"
       var margin = {top: 50, right: 40, bottom: 50, left: 60}
       var width = 600 - margin.left - margin.right;
@@ -304,7 +325,8 @@ export default {
         .attr("id", "hist")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-        
+      
+      svg.call(tip);
       var bar = svg.selectAll(".bar")
         .data(histset)
         .enter()
@@ -314,6 +336,12 @@ export default {
         .attr("width", binwidth)
         .attr("y", function(d) { return yScale(d.number); })
         .attr("height", function(d) { return height - yScale(d.number); })
+        .on("mouseover", function(d){
+          tip.show(d);
+        })
+        .on("mouseout", function(d){
+          tip.hide(d);
+        })
         .on("click", function(d){
           this.searchTime(d);
         })
@@ -441,11 +469,18 @@ a {
   color: #42b983;
 }
 
-
+#headimg {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  top: -50px;
+}
 
 
 #search {
-  height: 100px;
+  top: -30px;
+  position: relative;
+  height: 60px;
   text-align: center;
 }
 
@@ -456,6 +491,7 @@ a {
   opacity: 0.7;
   width: 600px;
   height: 350px;
+  left:10%;
   position: absolute;
   top: 230px;
   z-index: -1;
@@ -464,6 +500,7 @@ a {
 #point {
   width: 600px;
   height: 300px;
+  left: 10%;
   position: absolute;
   top: 230px;
   z-index: 0;
@@ -471,10 +508,10 @@ a {
 
 #card {
   position: absolute;
-  left: 55%;
+  left: 53%;
   height: 320px;
   top: 230px;
-  width: 500px;
+  width: 550px;
   overflow: auto;
   border: 1px solid black;
   border-radius: 2px;
@@ -488,19 +525,26 @@ a {
   width: 600px;
   border: 1px solid black;
   border-radius: 2px;
+  left: 10%;
   /* font-size: 12px; */
 }
 
 #wordcloud {
   position: absolute;
-  left: 55%;
+  left: 53%;
   height: 320px;
   top: 600px;
-  width: 500px;
+  width: 550px;
   overflow: auto;
   border: 1px solid black;
   border-radius: 2px;
   font-size: 12px;
+}
+
+#video {
+  position: relative;
+  top: 720px;
+  text-align: center;
 }
 
 #bottom {
@@ -515,7 +559,5 @@ a {
     font-weight: bold;
     padding: 12px;
 } 
-
-
 
 </style>
