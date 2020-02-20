@@ -1,6 +1,7 @@
 # Kronos Incident
 * Group Member: Heming Yuchen Qianyi
 * Our Kronos-Incident Visualized Systems [Website Link](http://52.14.238.110/kronos/)
+* Click [**here**](https://www.youtube.com/watch?v=NISH4pXTsuw&feature=youtu.be) to check the demo video.
 
 ## 1. Environment Setting(local machine / Remote Server)
 * Local Machine: macOS Catalina 10.15.3
