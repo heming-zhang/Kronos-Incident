@@ -2,26 +2,25 @@
 * Group Member: Heming Yuchen Qianyi
 * Our Kronos-Incident Visualized Systems [Website Link](http://52.14.238.110/kronos/)
 
-<!-- ## 1. Environment Setting(local machine / Remote Server)
+## 1. Environment Setting(local machine / Remote Server)
 * Local Machine: macOS Catalina 10.15.3
 * Remote Server: AWS Ubuntu Server 18.04 LTS (HVM), SSD Volume Type 
-
-## 2. Run up backend and frontend
+* On Remote Server:
 ```
 $ cd backend
 $ python3 app.py
 $ cd ../frontend
-$ npm run dev
-``` -->
-## 1. Background on Protectors of Kronos
+$ npm run build
+$ cp -r dist /var/www/html
+$ mv dist kronos
+```
+<!-- ## 2. Background on Protectors of Kronos -->
 
-## 2. Patterns at GAStech
 
-## 3. Problem
+## 2. Problems for Patterns at GAStech
 
-#### Questions (1)Describe common daily routines for GAStech employees. What does a day in the life of a typical GAStech employee look like? Please limit your response to no more than five images and 300 words.  
+#### Questions1: Describe common daily routines for GAStech employees. What does a day in the life of a typical GAStech employee look like? Please limit your response to no more than five images and 300 words.  
 
-Routines: 
 * Morning:
 
 <center>
