@@ -14,8 +14,38 @@ $ cd ../frontend
 $ npm run dev
 ```
 
-## 3. Basic Function (implemented by present)
-* Right now, we have implemented the backend with flask running on server, and we use the sqlalchemy as ORM to reflect those tables in MySQL database.
-* Besides that, we use Vue.js as our front end and we have drew the basic GPS tracks on the Canvas. And we implemented the search function to search certain GPS track for certain person with certain time range.
-* Thanks to the MySQL database and sqlalchemy on our backend, we process those data fluently.
-* Next, we would like to map those points on the Kronos Tourist picture, and use other attributes like colors and lines to make it more clearly. 
+## 3. Problem
+
+#### Questions (1)Describe common daily routines for GAStech employees. What does a day in the life of a typical GAStech employee look like? Please limit your response to no more than five images and 300 words.  
+
+Routines: 
+* Morning:
+* Noon:
+* Afternoon:
+
+
+#### Questions (2)Identify up to three unusual events or patterns that you see in the data. If you identify more than twelve patterns during your analysis, focus your answer on the patterns you consider to be most important for further investigation to help find the missing staff members. For each pattern or event that you identify, provide a supporting image and describe:
+
+*  (1)What is the pattern or event you observe?
+
+
+
+
+loyalty 	Abila Airport 	2014-01-08 00:00:00 	2723.18 	Henk Mies  
+loyalty 	Abila Airport 	2014-01-08 00:00:00 	2769.12 	Henk Mies
+
+
+loyalty 	Carlyle Chemical Inc. 	2014-01-08 00:00:00 	4901.88 	Valeria Morlun  
+loyalty 	Carlyle Chemical Inc. 	2014-01-08 00:00:00 	4983.52 	Irene Nant  
+loyalty 	Kronos Pipe and Irrigation 	2014-01-08 00:00:00 	3615.61 	Irene Nant  
+loyalty 	Maximum Iron and Steel 	2014-01-08 00:00:00 	3136.01 	Irene Nant  
+
+
+
+
+
+* Who is involved?
+* What locations are involved?
+* When does the pattern or event take place?
+* Why is this pattern or event significant?
+* What is your level of confidence about this pattern or event? Why?

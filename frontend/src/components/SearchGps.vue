@@ -115,36 +115,44 @@ export default {
   },
 
   mounted() {
+
     // generate page when first load
-    axios.get("/api/init_person")
+    axios.get("api/init_person")
           .then(response => (this.personal_info = response.data));
-    axios.get("/api/init_time")
+    axios.get("api/init_time")
           .then(response => (this.time_info = response.data));
   },
 
   methods: {
 
-    searchTime: async function(d){
-      let time1 = "14-1-" + start_date + " " + d.slot -2 + ":0";
-      let time2 = "14-1-" + start_date + " " + d.slot + ":0";
-      const res = await axios.get('api/search_gps', {
-        params: {
-          firstname: "",
-          lastname: "",
-          time_start: time1,
-          time_end: time2
-          }
-        }
-      );
-      console.log(1);
-    },
+    // searchTime: async function(d){
+    //   let time1 = "14-1-" + start_date + " " + d.slot -2 + ":0";
+    //   let time2 = "14-1-" + start_date + " " + d.slot + ":0";
+    //   const res = await axios.get('api/search_gps', {
+    //     params: {
+    //       firstname: "",
+    //       lastname: "",
+    //       time_start: time1,
+    //       time_end: time2
+    //       }
+    //     }
+    //   );
+    //   console.log(1);
+    // },
 
     // async function to wait axios 
     searchRange: async function(){
-      if(this.start_date == ""){
+      if(this.start_date == "" ||  this.start_hour == "" || this.start_minute == "" || this.end_date == "" ||this.end_hour == "" ||this.end_minute == ""){
         alert("Please Input Date");
-      }else{
-        let time_start = "14-1-" + this.start_date + " " + this.start_hour + ":" + this.start_minute
+     }else{
+        let start_sec = Number(this.start_date) * 1440 + Number(this.start_hour) * 60 + Number(this.start_minute);
+        let end_sec = Number(this.end_date) * 1440 + Number(this.end_hour) * 60 + Number(this.end_minute);
+        console.log(start_sec);
+        console.log(end_sec);
+        if ( Number(start_sec) >= Number(end_sec) ) {
+          alert("Time Search Range is Invalid!");
+        }else{
+          let time_start = "14-1-" + this.start_date + " " + this.start_hour + ":" + this.start_minute
         let time_end = "14-1-" + this.end_date + " " + this.end_hour + ":" + this.end_minute
         console.log(time_start);
         console.log(time_end);
@@ -189,6 +197,7 @@ export default {
         this.render();
         setTimeout(this.histplot, 3000, present, this.start_date);
         this.draw_word_cloud(this.card_info);
+        }
       }
     },
 
