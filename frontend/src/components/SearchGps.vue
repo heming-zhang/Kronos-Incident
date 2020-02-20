@@ -516,7 +516,7 @@ a {
   opacity: 0.7;
   width: 600px;
   height: 350px;
-  left:10%;
+  left:5%;
   position: absolute;
   top: 230px;
   z-index: -1;
@@ -525,7 +525,7 @@ a {
 #point {
   width: 600px;
   height: 300px;
-  left: 10%;
+  left: 5%;
   position: absolute;
   top: 230px;
   z-index: 0;
@@ -533,7 +533,7 @@ a {
 
 #card {
   position: absolute;
-  left: 53%;
+  left: 55%;
   height: 320px;
   top: 230px;
   width: 550px;
@@ -550,13 +550,13 @@ a {
   width: 600px;
   border: 1px solid black;
   border-radius: 2px;
-  left: 10%;
+  left: 5%;
   /* font-size: 12px; */
 }
 
 #wordcloud {
   position: absolute;
-  left: 53%;
+  left: 55%;
   height: 320px;
   top: 600px;
   width: 550px;
