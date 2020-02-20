@@ -6,7 +6,6 @@ import router from './router'
 import axios from 'axios'
 
 Vue.config.productionTip = false
-axios.defaults.withCredentials = true
 
 /* eslint-disable no-new */
 new Vue({
