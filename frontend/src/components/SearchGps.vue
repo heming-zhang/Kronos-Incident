@@ -46,7 +46,7 @@
     </div>
     <div>
       <div id="point"></div>
-      <div id="map"></div>
+      <div id="map" :style="{backgroundImage: 'url(' + require('@/assets/MC2-tourist.jpg') + ')'}"></div>
     </div>
     <div id = "card">
       <!-- <ul>
@@ -117,9 +117,12 @@ export default {
   mounted() {
 
     // generate page when first load
-    axios.get("api/init_person")
+    // axios.get("api/init_person")
+    //       .then(response => (this.personal_info = response.data));
+    // axios.get("api/init_time")
+    axios.get("http://52.14.238.110:5000/init_person")
           .then(response => (this.personal_info = response.data));
-    axios.get("api/init_time")
+    axios.get("http://52.14.238.110:5000/init_time")
           .then(response => (this.time_info = response.data));
   },
 
@@ -139,6 +142,20 @@ export default {
     //   );
     //   console.log(1);
     // },
+    searchTime: async function(d){
+      let time1 = "14-1-" + start_date + " " + d.slot -2 + ":0";
+      let time2 = "14-1-" + start_date + " " + d.slot + ":0";
+      const res = await axios.get('http://52.14.238.110:5000/search_gps', {
+        params: {
+          firstname: "",
+          lastname: "",
+          time_start: time1,
+          time_end: time2
+          }
+        }
+      );
+      console.log(1);
+    },
 
     // async function to wait axios 
     searchRange: async function(){
@@ -165,7 +182,7 @@ export default {
           firstname = this.name.split(' ', 1)[0];
           lastname = this.name.slice(this.name.indexOf(' ')+1);
         }
-        const res = await axios.get('api/search_gps', {
+        const res = await axios.get('http://52.14.238.110:5000/search_gps', {
           params: {
             firstname: firstname,
             lastname: lastname,
@@ -174,7 +191,7 @@ export default {
             }
           }
         );
-        const res_card = await axios.get('api/search_card', {
+        const res_card = await axios.get('http://52.14.238.110:5000/search_card', {
           params: {
             firstname: firstname,
             lastname: lastname,
@@ -183,7 +200,7 @@ export default {
             }
           }
         );
-        const res_date = await axios.get('api/search_hist', {
+        const res_date = await axios.get('http://52.14.238.110:5000/search_hist', {
           params: {
               time_start: time_start
             }
@@ -494,7 +511,6 @@ a {
 }
 
 #map {
-  background-image: url(../../../backend/patterns/A2_Data/MC2-tourist.jpg);
   background-size: 600px 320px;
   background-repeat: no-repeat;
   opacity: 0.7;
