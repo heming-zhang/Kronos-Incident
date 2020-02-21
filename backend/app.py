@@ -61,7 +61,6 @@ def search_gps():
     db = sessionmaker(bind = engine)()
     Gps = Base.classes.gps
     Car_assignments = Base.classes.car_assignments
-    print(firstname)
     # trigger search condition
     if((len(firstname) != 0 ) and (len(lastname) != 0)):
         result_list = (db.query(Car_assignments, Gps)
@@ -79,6 +78,7 @@ def search_gps():
             gps_record_list.append(gps_record)
     elif firstname == "Truck Drivers" :
         result_list = db.query(Gps).filter(Gps.id > 35).filter(Gps.timestamp.between(time_start, time_end))
+        print("firstname: " + firstname)
         gps_record_list = []
         for result in result_list:
             gps_record = {"timestamp" : result.timestamp,
@@ -86,6 +86,7 @@ def search_gps():
                         "lastname" : "N/A",
                         "latitude" : float(result.latitude), 
                         "longtitude" : float(result.longtitude)}
+            print(result)
             gps_record_list.append(gps_record)
     else:
         result_list = (db.query(Car_assignments, Gps)
