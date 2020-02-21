@@ -64,7 +64,6 @@ def search_gps():
     # trigger search condition
     if (firstname == "Truck Drivers") :
         result_list = db.query(Gps).filter(Gps.id > 35).filter(Gps.timestamp.between(time_start, time_end))
-        print("firstname: " + firstname)
         gps_record_list = []
         for result in result_list:
             gps_record = {"timestamp" : result.timestamp,
@@ -72,7 +71,6 @@ def search_gps():
                         "lastname" : "Drivers",
                         "latitude" : float(result.latitude), 
                         "longtitude" : float(result.longtitude)}
-            print(result)
             gps_record_list.append(gps_record)
     elif((len(firstname) != 0 ) and (len(lastname) != 0)) :
         result_list = (db.query(Car_assignments, Gps)
