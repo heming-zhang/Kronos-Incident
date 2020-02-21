@@ -61,6 +61,7 @@ def search_gps():
     db = sessionmaker(bind = engine)()
     Gps = Base.classes.gps
     Car_assignments = Base.classes.car_assignments
+    print(firstname)
     # trigger search condition
     if((len(firstname) != 0 ) and (len(lastname) != 0)):
         result_list = (db.query(Car_assignments, Gps)
