@@ -76,6 +76,16 @@ def search_gps():
                         "latitude" : float(result.gps.latitude), 
                         "longtitude" : float(result.gps.longtitude)}
             gps_record_list.append(gps_record)
+    else if( firstname == "Truck Drivers" ):
+        result_list = db.query(Gps).filter(Gps.id > 35).filter(Gps.timestamp.between(time_start, time_end))
+        gps_record_list = []
+        for result in result_list:
+            gps_record = {"timestamp" : result.timestamp,
+                        "firstname" : result.firstname,
+                        "lastname" : result.lastname,
+                        "latitude" : float(result.latitude), 
+                        "longtitude" : float(result.longtitude)}
+            gps_record_list.append(gps_record)
     else:
         result_list = (db.query(Car_assignments, Gps)
                     .join(Car_assignments, Car_assignments.carid == Gps.id)

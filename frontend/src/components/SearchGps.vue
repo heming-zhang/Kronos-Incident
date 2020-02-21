@@ -9,6 +9,7 @@
         <select v-model="name" class="select" style="width:120px;">
             <option disabled value selected>--Name--</option>
             <option>All Employee</option>
+            <option>Truck Drivers</option>
             <option v-for="(pinfo, index) in personal_info" :key="index">{{pinfo.firstname}} {{pinfo.lastname}}</option>
         </select>
       </div>
@@ -159,6 +160,7 @@ export default {
 
     // async function to wait axios 
     searchRange: async function(){
+      console.log(this.name);
       if(this.start_date == "" ||  this.start_hour == "" || this.start_minute == "" || this.end_date == "" ||this.end_hour == "" ||this.end_minute == ""){
         alert("Please Input Date");
      }else{
@@ -178,6 +180,9 @@ export default {
         if(this.name == "All Employee"){
           firstname = "";
           lastname = "";
+        }else if(this.name == "Truck Drivers"){
+          firstname = "Truck Drivers";
+          lastname = "Truck Drivers";
         }else{
           firstname = this.name.split(' ', 1)[0];
           lastname = this.name.slice(this.name.indexOf(' ')+1);
