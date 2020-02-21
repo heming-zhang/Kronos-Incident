@@ -68,8 +68,8 @@ def search_gps():
         gps_record_list = []
         for result in result_list:
             gps_record = {"timestamp" : result.timestamp,
-                        "firstname" : "N/A",
-                        "lastname" : "N/A",
+                        "firstname" : "Truck",
+                        "lastname" : "Drivers",
                         "latitude" : float(result.latitude), 
                         "longtitude" : float(result.longtitude)}
             print(result)
