@@ -163,23 +163,26 @@ export default {
       console.log(this.name);
       if(this.start_date == "" ||  this.start_hour == "" || this.start_minute == "" || this.end_date == "" ||this.end_hour == "" ||this.end_minute == ""){
         alert("Please Input Date");
-     }else{
+      }else{
         let start_sec = Number(this.start_date) * 1440 + Number(this.start_hour) * 60 + Number(this.start_minute);
         let end_sec = Number(this.end_date) * 1440 + Number(this.end_hour) * 60 + Number(this.end_minute);
         console.log(start_sec);
         console.log(end_sec);
         if ( Number(start_sec) >= Number(end_sec) ) {
           alert("Time Search Range is Invalid!");
-        }else{
+        }else if( Number(end_sec) - Number(start_sec) >= 2400){
+          alert("Due to Micro AWS features, cannot support search beyond 40 hours! Sorry for this inconvenience!");
+        }
+        else{
           let time_start = "14-1-" + this.start_date + " " + this.start_hour + ":" + this.start_minute
-        let time_end = "14-1-" + this.end_date + " " + this.end_hour + ":" + this.end_minute
-        console.log(time_start);
-        console.log(time_end);
-        let firstname;
-        let lastname;
-        if(this.name == "All Employee"){
-          firstname = "";
-          lastname = "";
+          let time_end = "14-1-" + this.end_date + " " + this.end_hour + ":" + this.end_minute
+          console.log(time_start);
+          console.log(time_end);
+          let firstname;
+          let lastname;
+          if(this.name == "All Employee"){
+            firstname = "";
+            lastname = "";
         }else if(this.name == "Truck Drivers"){
           firstname = "Truck Drivers";
           lastname = "Truck Drivers";
