@@ -62,7 +62,19 @@ def search_gps():
     Gps = Base.classes.gps
     Car_assignments = Base.classes.car_assignments
     # trigger search condition
-    if((len(firstname) != 0 ) and (len(lastname) != 0)):
+    if (firstname == "Truck Drivers") :
+        result_list = db.query(Gps).filter(Gps.id > 35).filter(Gps.timestamp.between(time_start, time_end))
+        print("firstname: " + firstname)
+        gps_record_list = []
+        for result in result_list:
+            gps_record = {"timestamp" : result.timestamp,
+                        "firstname" : "N/A",
+                        "lastname" : "N/A",
+                        "latitude" : float(result.latitude), 
+                        "longtitude" : float(result.longtitude)}
+            print(result)
+            gps_record_list.append(gps_record)
+    elif((len(firstname) != 0 ) and (len(lastname) != 0)) :
         result_list = (db.query(Car_assignments, Gps)
                     .join(Car_assignments, Car_assignments.carid == Gps.id)
                     .filter_by(firstname = firstname)
@@ -75,18 +87,6 @@ def search_gps():
                         "lastname" : result.car_assignments.lastname,
                         "latitude" : float(result.gps.latitude), 
                         "longtitude" : float(result.gps.longtitude)}
-            gps_record_list.append(gps_record)
-    elif firstname == "Truck Drivers" :
-        result_list = db.query(Gps).filter(Gps.id > 35).filter(Gps.timestamp.between(time_start, time_end))
-        print("firstname: " + firstname)
-        gps_record_list = []
-        for result in result_list:
-            gps_record = {"timestamp" : result.timestamp,
-                        "firstname" : "N/A",
-                        "lastname" : "N/A",
-                        "latitude" : float(result.latitude), 
-                        "longtitude" : float(result.longtitude)}
-            print(result)
             gps_record_list.append(gps_record)
     else:
         result_list = (db.query(Car_assignments, Gps)
