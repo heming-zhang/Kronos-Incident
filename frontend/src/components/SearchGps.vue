@@ -3,9 +3,18 @@
     <div id = "headimg">
       <img width="400px" height="100px"  src = "../../static/img/Kronos.jpg">
     </div>
-    <div id="search">
-      <input type="button" value="Show Dialog" @click="showdialog" />
+    <div id = "navigate">
+      <input type="button" class = "btn" value="User Guidance" @click="showdialog" />
       <div id="mydialog" title="User Guidance">{{guide_text}}</div>
+    </div>
+    <div id = "control">
+      <input type="button" id = "start" class = "btn" value="Start Logging" @click="record_start" />
+      <input type="button" id = "stop" class = "btn" value="Stop Logging" @click="record_cancel" />
+    </div>
+    <div id = "slide">
+      <b>Point Speed</b>: &nbsp;Fast&nbsp;&nbsp;<input v-model="coefficient" type="range" min="10" max="500" value="100" class="slider" id="myRange">&nbsp;&nbsp;Slow
+    </div>
+    <div id="search">
       <div id="name-search">
         <strong>Name:</strong>
         <select v-model="name" class="select" style="width:120px;">
@@ -48,6 +57,7 @@
       </div>
     </div>
     <div>
+      <div id="personalpoint"></div>
       <div id="point"></div>
       <div id="map" :style="{backgroundImage: 'url(' + require('@/assets/MC2-tourist.jpg') + ')'}"></div>
     </div>
@@ -99,6 +109,8 @@ export default {
   name: "SearchGps",
   data() {
     return {
+      record_log: false,
+      record_set: [],
       personal_info: [],
       time_info: [],
       guide_text: "",
@@ -114,7 +126,8 @@ export default {
       start_minute: "",
       end_date: "",
       end_hour: "",
-      end_minute: ""
+      end_minute: "",
+      coefficient: 100
     };
   },
 
@@ -134,8 +147,42 @@ export default {
 
   methods: {
 
+    record_start: function(){
+      this.record_log = true;
+      document.getElementById("start").style.backgroundColor = "black";
+      document.getElementById("start").style.color= "white";
+      console.clear();
+    },
+
+    record_cancel: function(){
+      this.record_log = false;
+      document.getElementById("start").style.backgroundColor = "gray";
+      document.getElementById("start").style.color= "black";
+      for(let i=0; i<this.record_set.length; i++){
+        console.log(this.record_set[i]);
+      }
+      this.record_set = [];
+    },
+
+    logdata: function(d, type){
+      if(this.record_log == true){
+        if (type == "mouseover"){
+          let log = {name: d.firstname + " " + d.lastname,
+          timestamp: d.timestamp,
+          longtitude: d.longtitude,
+          latitude: d.latitude};
+          this.record_set.push(log);
+        }else{
+          let name = d.firstname + " " + d.lastname;
+          console.log("chosen name:"+name);
+        }
+      }
+    },
+
     showdialog: function(){
-      $("#mydialog").dialog();
+      $("#mydialog").dialog({
+        width: "700"
+      });
     },
 
     searchTime: async function(d){
@@ -150,26 +197,23 @@ export default {
           }
         }
       );
-      console.log(1);
     },
 
     // async function to wait axios 
     searchRange: async function(){
-      console.log(this.name);
+      console.log("search name: "+this.name);
       if(this.start_date == "" ||  this.start_hour == "" || this.start_minute == "" || this.end_date == "" ||this.end_hour == "" ||this.end_minute == ""){
         alert("Please Input Date");
       }else{
         let start_sec = Number(this.start_date) * 1440 + Number(this.start_hour) * 60 + Number(this.start_minute);
         let end_sec = Number(this.end_date) * 1440 + Number(this.end_hour) * 60 + Number(this.end_minute);
-        console.log(start_sec);
-        console.log(end_sec);
         if ( Number(start_sec) >= Number(end_sec) ) {
           alert("Time Search Range is Invalid!");
         }else{
           let time_start = "14-1-" + this.start_date + " " + this.start_hour + ":" + this.start_minute
           let time_end = "14-1-" + this.end_date + " " + this.end_hour + ":" + this.end_minute
-          console.log(time_start);
-          console.log(time_end);
+          console.log("time start" + time_start);
+          console.log("time end" + time_end);
           let firstname;
           let lastname;
           if(this.name == "All Employee"){
@@ -409,7 +453,48 @@ export default {
     },
 
 
+    sleep: function(ms){
+      return new Promise(resolve => setTimeout(resolve, ms));
+    },
+
+    personal_render: async function(firstname){
+      let control = this.coefficient / 100;
+      console.log(control);
+      let _this = this;
+      let name = [];
+      let middle = -1;
+      let sleeptime = 7 * control;
+      let randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+      name = document.getElementsByClassName(firstname);
+      for(let i=0; i<name.length; i++){
+        name[i].style.fill = randomColor;
+        name[i].style.opacity = 1;
+        name[i].setAttribute("float", "right");
+        name[i].setAttribute("r", 5);
+        await this.sleep(sleeptime);
+        if(i == 0 || i == name.length -1){
+          name[i].setAttribute("r", 10);
+        }else{
+          var old = new Date(name[i-1].getAttribute("time"));
+          var present = new Date(name[i].getAttribute("time"));
+          var diff = present - old;
+          if(diff > 200000){
+            if(middle > 0){
+              name[middle].setAttribute("r", 1);
+            }
+            middle = i;
+            sleeptime = 770;
+            name[i].setAttribute("r", 10);
+          }else{
+            sleeptime = 7 * control;
+            name[i].setAttribute("r", 1);
+          }
+        }
+      }
+    },
+
     render: function(){
+      let _this = this;
       var delete_svg = document.getElementById("canvas")
       if(delete_svg != null){
         delete_svg.remove();
@@ -452,25 +537,33 @@ export default {
         .attr('cy', function(d) { return y(d['latitude']) })
         .attr("width", 2)
         .attr("height", 2)
+        .attr("time", function(d){return d.timestamp})
+        .attr("class", function(d){return d.firstname})
+        .style('opacity', 0.3)
         .attr("fill", function(d, index){
           return "gray"
         })
         .attr("x", (d) => x(d.longtitude))
         .attr("y", (d) => y(d.latitude))
-        .attr("stroke", "black")
-		    .attr("stroke-width",0.2)
+        .attr("stroke", "gray")
+		    .attr("stroke-width", 0.1)
         .on('mouseover', function(d){
           d3.select(this)
           .attr("fill", "#1E90FF")
           .attr("r", 5)
           .style("opacity", 0.9);
           tip.show(d);
+          _this.logdata(d, "mouseover");
         })
         .on('mouseout', function(d){
           d3.select(this)
           .attr("fill", "gray")
           .attr("r", 1);
           tip.hide(d);
+        })
+        .on('click', function(d){
+          _this.personal_render(d.firstname);
+          _this.logdata(d, "click");
         })
     }
   }
@@ -498,8 +591,28 @@ a {
   color: #42b983;
 }
 
+.btn {
+  background-color: grey;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 6px 7px;
+}
+
+
+#control {
+  position: absolute;
+  top: 40px;
+  left: 75.5%;
+}
+
+#navigate {
+  position: absolute;
+  top: 40px;
+  left: 5.5%;
+}
+
 #mydialog {
-  display:none 
+  display:none;
 }
 
 #headimg {
@@ -517,6 +630,14 @@ a {
   text-align: center;
 }
 
+#slide {
+  left: 5%;
+  position: absolute;
+  top: 200px;
+  /* z-index: 0; */
+}
+
+
 #map {
   background-size: 600px 320px;
   background-repeat: no-repeat;
@@ -530,6 +651,15 @@ a {
 }
 
 #point {
+  width: 600px;
+  height: 300px;
+  left: 5%;
+  position: absolute;
+  top: 230px;
+  z-index: 0;
+}
+
+#personalpoint {
   width: 600px;
   height: 300px;
   left: 5%;
