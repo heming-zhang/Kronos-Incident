@@ -1,3 +1,4 @@
+import numpy as np
 from flask import Flask, url_for, redirect, render_template
 from flask import request
 from flask import jsonify
@@ -57,10 +58,14 @@ def init_person():
     Car_assignments = Base.classes.car_assignments
     result_list = db.query(Car_assignments).filter(Car_assignments.carid.isnot(None))
     personal_info_list = []
+    color_array = np.random.uniform(0,360,35)
+    count = 0
     for result in result_list:
         personal_info = {"carid": result.carid,
                     "firstname" : result.firstname,
-                    "lastname" : result.lastname}
+                    "lastname" : result.lastname,
+                    "color": color_array[count]}
+        count += 1
         personal_info_list.append(personal_info)
     return jsonify(personal_info_list)
 

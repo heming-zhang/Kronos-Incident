@@ -16,7 +16,7 @@
         {{guide_text.task1}}<br><br>
         {{guide_text.task2}}<br><br>
       </div>
-      <button class = "btn"><a href="#myvideo" style="color:black;">Video Link</a></button>
+      <button class = "btn" style="color:black;" @click="showvideo">Video Link</button>
     </div>
     <div id = "control">
       <input type="button" id = "start" class = "btn" value="Start Logging" @click="record_start" />
@@ -26,7 +26,7 @@
       <b>Point Speed</b>: &nbsp;Fast&nbsp;&nbsp;<input v-model="coefficient" type="range" min="10" max="500" value="100" class="slider" id="myRange">&nbsp;&nbsp;Slow
     </div>
     <div id="search">
-      <div id="name-search">
+      <!-- <div id="name-search">
         <strong>Name:</strong>
         <select v-model="name" class="select" style="width:120px;">
             <option disabled value selected>--Name--</option>
@@ -34,7 +34,7 @@
             <option>Truck Drivers</option>
             <option v-for="(pinfo, index) in personal_info" :key="index">{{pinfo.firstname}} {{pinfo.lastname}}</option>
         </select>
-      </div>
+      </div> -->
       <div id="time-search">
         <strong>From:</strong>
         <select v-model="start_date" class="time" style="width:70px;">
@@ -65,6 +65,17 @@
         </select>
         <br>
         <button @click="searchRange">Search</button>
+      </div>
+    </div>
+    <div id="namebar">
+      <p class = "namebox"><strong>Please Select Employee:</strong></p>
+      <input class = "namebox" type="radio" name = "employee" v-model="name" value="All Employee">
+      <label for="male">All Employee</label><br>
+      <input class = "namebox" type="radio" name = "employee" v-model="name" value="Truck Drivers">
+      <label for="male">Truck Drivers</label><br>
+      <div v-for="(pinfo, index) in personal_info" :key="index">
+        <input class = "namebox" type="radio" name = "employee" v-model="name" v-bind:value="pinfo.firstname+' '+pinfo.lastname">
+        <label >{{pinfo.firstname}} {{pinfo.lastname}}</label><br>
       </div>
     </div>
     <div>
@@ -103,8 +114,8 @@
     </div>
     <div id = "wordcloud">
     </div>
-    <div id="myvideo">
-        <iframe width="600" height="400"
+    <div id="productId" >
+        <iframe allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="550" height="380"
           src="https://www.youtube.com/embed/NISH4pXTsuw">
         </iframe> 
     </div>
@@ -157,6 +168,15 @@ export default {
   },
 
   methods: {
+
+    showvideo: function() {  
+      const returnEle = document.querySelector("#productId");  
+      if (!!returnEle) {
+        returnEle.scrollIntoView(true); 
+      }
+      document.querySelector("showvideo").scrollIntoView(true); 
+    },
+
 
     record_start: function(){
       this.record_log = true;
@@ -219,8 +239,11 @@ export default {
     // async function to wait axios 
     searchRange: async function(){
       console.log("search name: "+this.name);
+      if(this.name == ""){
+        alert("Please Select Employee.")
+      }
       if(this.start_date == "" ||  this.start_hour == "" || this.start_minute == "" || this.end_date == "" ||this.end_hour == "" ||this.end_minute == ""){
-        alert("Please Input Date");
+        alert("Please Select Date!");
       }else{
         let start_sec = Number(this.start_date) * 1440 + Number(this.start_hour) * 60 + Number(this.start_minute);
         let end_sec = Number(this.end_date) * 1440 + Number(this.end_hour) * 60 + Number(this.end_minute);
@@ -274,7 +297,7 @@ export default {
         this.gps_info = res.data;
         this.card_info = res_card.data;
         this.slot_info = res_date.data;
-        let present = "14/1/" + this.start_date;
+        let present = "1/" + this.start_date + "/2014";
         this.render();
         setTimeout(this.histplot, 3000, present, this.start_date);
         this.draw_word_cloud(this.card_info);
@@ -314,9 +337,9 @@ export default {
         wordset.push({'word': key, 'size': newWords[key]})
       })
 
-      var margin = {top: 10, right: 10, bottom: 10, left: 10};
-      var cloud_width = 500 - margin.left - margin.right;
-      var cloud_height = 320 - margin.top - margin.bottom;
+      var margin = {top: 20, right: 5, bottom: 10, left: 10};
+      var cloud_width = 560 - margin.left - margin.right;
+      var cloud_height = 370 - margin.top - margin.bottom;
 
       var svg = d3.select("#wordcloud").append("svg")
         .attr("width", cloud_width)
@@ -517,8 +540,8 @@ export default {
         delete_svg.remove();
       }
       //Create SVG element
-      let w = 600;
-      let h = 300;
+      let w = 960;
+      let h = 480;
       let svg = d3.select("#point")
                   .append("svg")
                   .attr("width", w)
@@ -632,6 +655,11 @@ a {
   display:none;
 }
 
+#mytask {
+  display:none;
+}
+
+
 #headimg {
   position: relative;
   text-align: center;
@@ -647,8 +675,23 @@ a {
   text-align: center;
 }
 
+.namebox {
+  margin-left: 5px;
+}
+
+#namebar {
+  top: 240px;
+  position: absolute;
+  left: 6%;
+  height: 480px;
+  width: 13%;
+  overflow: auto;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
 #slide {
-  left: 5%;
+  left: 6%;
   position: absolute;
   top: 200px;
   /* z-index: 0; */
@@ -656,30 +699,39 @@ a {
 
 
 #map {
-  background-size: 600px 320px;
+  background-size: 960px 512px;
   background-repeat: no-repeat;
   opacity: 0.7;
-  width: 600px;
-  height: 350px;
-  left:5%;
+  width: 960px;
+  height: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   position: absolute;
   top: 230px;
   z-index: -1;
 }
 
 #point {
-  width: 600px;
-  height: 300px;
-  left: 5%;
+  width: 960px;
+  height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   position: absolute;
   top: 230px;
   z-index: 0;
 }
 
 #personalpoint {
-  width: 600px;
-  height: 300px;
-  left: 5%;
+  width: 960px;
+  height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   position: absolute;
   top: 230px;
   z-index: 0;
@@ -687,9 +739,9 @@ a {
 
 #card {
   position: absolute;
-  left: 55%;
+  left: 12%;
   height: 320px;
-  top: 230px;
+  top: 780px;
   width: 550px;
   overflow: auto;
   border: 1px solid black;
@@ -700,30 +752,30 @@ a {
 #histogram {
   position: absolute;
   height: 320px;
-  top: 600px;
+  top: 780px;
   width: 600px;
   border: 1px solid black;
   border-radius: 2px;
-  left: 5%;
+  right: 12%;
   /* font-size: 12px; */
 }
 
 #wordcloud {
   position: absolute;
-  left: 55%;
-  height: 320px;
-  top: 600px;
-  width: 550px;
+  right: 12%;
+  height: 380px;
+  top: 1140px;
+  width: 600px;
   overflow: auto;
   border: 1px solid black;
   border-radius: 2px;
   font-size: 12px;
 }
 
-#myvideo {
-  position: relative;
-  top: 720px;
-  text-align: center;
+#productId {
+  position: absolute;
+  left: 12%;
+  top: 1140px;
 }
 
 #bottom {
