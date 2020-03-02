@@ -5,7 +5,8 @@
     </div>
     <div id = "navigate">
       <input type="button" class = "btn" value="User Guidance" @click="showdialog" />
-      <div id="mydialog" title="User Guidance">{{guide_text}}</div>
+      <div id="mydialog" title="Background Story">{{guide_text}}</div>
+      <button class = "btn"><a href="#myvideo" style="color:black;">Video Link</a></button>
     </div>
     <div id = "control">
       <input type="button" id = "start" class = "btn" value="Start Logging" @click="record_start" />
@@ -92,13 +93,13 @@
     </div>
     <div id = "wordcloud">
     </div>
+    <div id="myvideo">
+        <iframe width="600" height="400"
+          src="https://www.youtube.com/embed/NISH4pXTsuw">
+        </iframe> 
+    </div>
     <div id = "bottom">
     </div>
-    <!-- <div id = "video">
-       <iframe height="360" width="600"
-        src="https://www.youtube.com/embed/FtLj8WUcqow/autoplay=1"> 
-      </iframe> 
-    </div> -->
   </div>
 </template>
 
@@ -143,6 +144,7 @@ export default {
           .then(response => (this.time_info = response.data));
     axios.get("http://52.14.238.110:5000/init_text")
           .then(response => (this.guide_text = response.data));
+
   },
 
   methods: {
@@ -703,7 +705,7 @@ a {
   font-size: 12px;
 }
 
-#video {
+#myvideo {
   position: relative;
   top: 720px;
   text-align: center;
