@@ -23,7 +23,7 @@
       <input type="button" id = "stop" class = "btn" value="Stop Logging" @click="record_cancel" />
     </div>
     <div id = "slide">
-      <b>Point Speed</b>: &nbsp;Fast&nbsp;&nbsp;<input v-model="coefficient" type="range" min="10" max="500" value="100" class="slider" id="myRange">&nbsp;&nbsp;Slow
+      <b>Point Speed</b>: &nbsp;Fast x 10&nbsp;&nbsp;<input v-model="coefficient" type="range" min="10" max="500" value="100" class="slider" id="myRange">&nbsp;&nbsp;Slow x 5
     </div>
     <div id="search">
       <!-- <div id="name-search">
@@ -35,36 +35,39 @@
             <option v-for="(pinfo, index) in personal_info" :key="index">{{pinfo.firstname}} {{pinfo.lastname}}</option>
         </select>
       </div> -->
-      <div id="time-search">
+      <div id="time-search" >
         <strong>From:</strong>
-        <select v-model="start_date" class="time" style="width:70px;">
+        <select v-model="start_date" class="time soption" style="width:70px;">
           <option disabled value selected>-date-</option>
           <option v-for="(d, index) in time_info.date" :key="index">{{d}}</option>
         </select>
-        <select v-model="start_hour" class="time" style="width:70px;">
+        <select v-model="start_hour" class="time soption" style="width:70px;">
           <option disabled value selected>-hour-</option>
           <option v-for="(h, index) in time_info.hour" :key="index">{{h}}</option>
         </select>
-        <select v-model="start_minute" class="time" style="width:90px;">
+        <select v-model="start_minute" class="time soption" style="width:90px;">
           <option disabled value selected>-minute-</option>
           <option v-for="(m, index) in time_info.minute" :key="index">{{m}}</option>
         </select>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <strong>To:</strong>
-        <select v-model="end_date" class="time" style="width:70px;">
+        <select v-model="end_date" class="time soption" style="width:70px;">
           <option disabled value selected>-date-</option>
           <option v-for="(d, index) in time_info.date" :key="index">{{d}}</option>
         </select>
-        <select v-model="end_hour" class="time" style="width:70px;">
+        <select v-model="end_hour" class="time soption" style="width:70px;">
           <option disabled value selected>-hour-</option>
           <option v-for="(h, index) in time_info.hour" :key="index">{{h}}</option>
         </select>
-        <select v-model="end_minute" class="time" style="width:90px;">
+        <select v-model="end_minute" class="time soption" style="width:90px;">
           <option disabled value selected>-minute-</option>
           <option v-for="(m, index) in time_info.minute" :key="index">{{m}}</option>
         </select>
         <br>
-        <button @click="searchRange">Search</button>
+        <br>
+        <button class = "searchbtn" @click="searchRange">Search</button>
+        <br>
+        <i class="fa fa-spinner fa-spin" id = "loading" style ="display:none"></i>
       </div>
     </div>
     <div id="namebar">
@@ -90,6 +93,18 @@
       <div id="personalpoint"></div>
       <div id="point"></div>
       <div id="map" :style="{backgroundImage: 'url(' + require('@/assets/MC2-tourist.jpg') + ')'}"></div>
+    </div>
+    <div id="trackbar">
+      <table style="width:100%">
+        <tr>
+          <th colspan="1">
+            <strong>Pause > 10 Minutes:</strong>
+          </th>
+        </tr>
+        <tr v-for="(d, index) in pause_info" :key="index">
+          <th>{{d}}</th>
+        </tr>
+      </table> 
     </div>
     <div id = "card">
       <!-- <ul>
@@ -121,9 +136,16 @@
     <div id = "histogram">
     </div>
     <div id = "wordcloud">
+      <table style="width:100%">
+        <tr>
+          <th colspan="1">
+            <strong>Words Cloud for Card Info(Bigger Font Sizes Means Higher Frequency):</strong>
+          </th>
+        </tr>
+      </table>
     </div>
     <div id="productId" >
-        <iframe allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="550" height="380"
+        <iframe allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" width="600" height="380"
           src="https://www.youtube.com/embed/NISH4pXTsuw">
         </iframe> 
     </div>
@@ -139,6 +161,8 @@ export default {
   name: "SearchGps",
   data() {
     return {
+      circle: false,
+      pause_info: [],
       record_log: false,
       record_set: [],
       personal_info: [],
@@ -195,7 +219,7 @@ export default {
 
     record_cancel: function(){
       this.record_log = false;
-      document.getElementById("start").style.backgroundColor = "gray";
+      document.getElementById("start").style.backgroundColor = "lightgray";
       document.getElementById("start").style.color= "black";
       for(let i=0; i<this.record_set.length; i++){
         console.log(this.record_set[i]);
@@ -246,6 +270,10 @@ export default {
 
     // async function to wait axios 
     searchRange: async function(){
+      var x = document.getElementById("loading");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      }
       console.log("search name: "+this.name);
       if(this.name == ""){
         alert("Please Select Employee.")
@@ -302,6 +330,9 @@ export default {
           }
         );
         // this.gps_info = JSON.stringify(res.data);
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        }
         this.gps_info = res.data;
         this.card_info = res_card.data;
         this.slot_info = res_date.data;
@@ -535,6 +566,7 @@ export default {
           if(diff > 200000){
             if(middle > 0){
               name[middle].setAttribute("r", 1);
+              _this.pause_info.push(present);
             }
             middle = i;
             sleeptime = 770;
@@ -646,12 +678,40 @@ a {
 }
 
 .btn {
-  background-color: grey;
+  background-color: lightgrey;
   font-size: 14px;
   border-radius: 4px;
-  padding: 6px 7px;
+  border: 0.5px solid black;
+  padding: 3px 7px;
 }
 
+.searchbtn {
+  background-color: lightgrey;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 0.5px solid black;
+  padding: 3px 20px;
+}
+
+.soption {
+  background-color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 0.5px solid black;
+  padding: 1px 7px;
+}
+
+.loader {
+  position: absolute;
+  top: 120px;
+  border: 1px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 1px solid #3498db;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
 
 #control {
   position: absolute;
@@ -698,7 +758,18 @@ a {
   position: absolute;
   left: 6%;
   height: 480px;
-  width: 13%;
+  width: 12%;
+  overflow: auto;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+#trackbar {
+  top: 240px;
+  position: absolute;
+  right: 6%;
+  height: 480px;
+  width: 12%;
   overflow: auto;
   border: 1px solid black;
   border-radius: 2px;
@@ -753,7 +824,7 @@ a {
 
 #card {
   position: absolute;
-  left: 12%;
+  right: 12%;
   height: 320px;
   top: 780px;
   width: 550px;
@@ -770,7 +841,7 @@ a {
   width: 600px;
   border: 1px solid black;
   border-radius: 2px;
-  right: 12%;
+  left: 12%;
   /* font-size: 12px; */
 }
 
@@ -779,7 +850,7 @@ a {
   right: 12%;
   height: 380px;
   top: 1140px;
-  width: 600px;
+  width: 550px;
   overflow: auto;
   border: 1px solid black;
   border-radius: 2px;
