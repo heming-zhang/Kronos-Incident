@@ -17,6 +17,10 @@ patterns_conn = "mysql+pymysql://root:Root2021@@127.0.0.1:3306/patterns"
 
 @app.route('/init_text', methods=['GET'])
 def init_text():
+    task1 = ("1.Describe common daily routines for GAStech employees at "
+    "morning(7-9AM) and evening(5-7AM), try to find their living area.")
+    task2 = ("2.Identify some unusual events or patterns that you see "
+    "from the data(as much as you can)")
     para1 = ("Many of the Abila, Kronos-based employees of GAStech have company cars " 
     "that are approved for both personal and business use. "
     "Those who do not have company cars have the ability to check out company trucks "
@@ -37,10 +41,9 @@ def init_text():
     "employees also use loyalty cards to gain discounts or extra benefits at the businesses "
     "they patronize, and law enforcement has been given access to two weeks of this loyalty "
     "card data as well.")
-    paragraph = {"para1": para1,
-        "para2": para2,
-        "para3": para3,
-        "para4": para4
+    paragraph = {"task1": task1, "task2": task2,
+        "para1": para1,"para2": para2,
+        "para3": para3,"para4": para4
     }
     return paragraph
 

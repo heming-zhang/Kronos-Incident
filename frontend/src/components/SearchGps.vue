@@ -4,8 +4,18 @@
       <img width="400px" height="100px"  src = "../../static/img/Kronos.jpg">
     </div>
     <div id = "navigate">
-      <input type="button" class = "btn" value="User Guidance" @click="showdialog" />
-      <div id="mydialog" title="Background Story">{{guide_text.para1}}</div>
+      <input type="button" class = "btn" value="Background Story" @click="showdialog" />
+      <div id="mydialog" title="Background Story">
+        {{guide_text.para1}}<br><br>
+        {{guide_text.para2}}<br><br>
+        {{guide_text.para3}}<br><br>
+        {{guide_text.para4}}<br><br>
+      </div>
+      <input type="button" class = "btn" value="Task" @click="showtask" />
+      <div id="mytask" title="Task">
+        {{guide_text.task1}}<br><br>
+        {{guide_text.task2}}<br><br>
+      </div>
       <button class = "btn"><a href="#myvideo" style="color:black;">Video Link</a></button>
     </div>
     <div id = "control">
@@ -182,6 +192,12 @@ export default {
 
     showdialog: function(){
       $("#mydialog").dialog({
+        width: "700"
+      });
+    },
+
+    showtask: function(){
+      $("#mytask").dialog({
         width: "700"
       });
     },
