@@ -5,7 +5,7 @@
     </div>
     <div id = "navigate">
       <input type="button" class = "btn" value="User Guidance" @click="showdialog" />
-      <div id="mydialog" title="Background Story">{{guide_text}}</div>
+      <div id="mydialog" title="Background Story">{{guide_text.para1}}</div>
       <button class = "btn"><a href="#myvideo" style="color:black;">Video Link</a></button>
     </div>
     <div id = "control">
@@ -144,7 +144,6 @@ export default {
           .then(response => (this.time_info = response.data));
     axios.get("http://52.14.238.110:5000/init_text")
           .then(response => (this.guide_text = response.data));
-
   },
 
   methods: {
