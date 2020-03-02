@@ -72,13 +72,17 @@
       <input class = "namebox" type="radio" name = "employee" v-model="name" value="All Employee">
       <label for="male">All Employee</label><br>
       <input class = "namebox" type="radio" name = "employee" v-model="name" value="Truck Drivers">
-      <label for="male">Truck Drivers</label><br>
+      <label for="male">Truck Drivers</label>
+      <svg width="12" height="12"> 
+        <rect width="12" height="12" style="fill: brown" />
+      </svg>
+      <br>
       <div v-for="(pinfo, index) in personal_info" :key="index">
         <input class = "namebox" type="radio" name = "employee" v-model="name" v-bind:value="pinfo.firstname+' '+pinfo.lastname">
         <label >{{pinfo.firstname}} {{pinfo.lastname}}</label>
           <svg width="12" height="12"> 
-            <rect width="12" height="12" v-bind:style="pinfo.color" />
-          </svg> 
+            <rect width="12" height="12" v-bind:style="{fill: pinfo.color}" />
+          </svg>
         <br>
       </div>
     </div>
@@ -501,14 +505,20 @@ export default {
       return new Promise(resolve => setTimeout(resolve, ms));
     },
 
-    personal_render: async function(firstname){
+    personal_render: async function(firstname, color){
       let control = this.coefficient / 100;
       console.log(control);
       let _this = this;
       let name = [];
       let middle = -1;
       let sleeptime = 7 * control;
-      let randomColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+      let randomColor = "brown"; // Truck Driver
+      let j = 0;
+      for(; j < this.personal_info.length; j ++){
+        if(this.personal_info[j].firstname == firstname){
+          randomColor = this.personal_info[j].color;
+        }
+      }
       name = document.getElementsByClassName(firstname);
       for(let i=0; i<name.length; i++){
         name[i].style.fill = randomColor;
