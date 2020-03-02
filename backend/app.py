@@ -58,7 +58,10 @@ def init_person():
     Car_assignments = Base.classes.car_assignments
     result_list = db.query(Car_assignments).filter(Car_assignments.carid.isnot(None))
     personal_info_list = []
-    color_array = np.random.uniform(0,360,35)
+    from random import randint
+    color_array = []
+    for i in range(35):
+        color_array.append('#%06X' % randint(0, 0xFFFFFF))
     count = 0
     for result in result_list:
         personal_info = {"carid": result.carid,

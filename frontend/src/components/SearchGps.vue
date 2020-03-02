@@ -75,7 +75,11 @@
       <label for="male">Truck Drivers</label><br>
       <div v-for="(pinfo, index) in personal_info" :key="index">
         <input class = "namebox" type="radio" name = "employee" v-model="name" v-bind:value="pinfo.firstname+' '+pinfo.lastname">
-        <label >{{pinfo.firstname}} {{pinfo.lastname}}</label><br>
+        <label >{{pinfo.firstname}} {{pinfo.lastname}}</label>
+          <svg width="12" height="12"> 
+            <rect width="12" height="12" v-bind:style="pinfo.color" />
+          </svg> 
+        <br>
       </div>
     </div>
     <div>
