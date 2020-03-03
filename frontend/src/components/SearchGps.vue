@@ -758,7 +758,7 @@ a {
 #namebar {
   top: 240px;
   position: absolute;
-  left: 4%;
+  left: 1%;
   height: 480px;
   width: 10%;
   overflow: auto;
@@ -769,7 +769,7 @@ a {
 #trackbar {
   top: 240px;
   position: absolute;
-  right: 4%;
+  right: 1%;
   height: 480px;
   width: 10%;
   overflow: auto;
@@ -826,7 +826,7 @@ a {
 
 #card {
   position: absolute;
-  right: 6%;
+  right: 2%;
   height: 320px;
   top: 780px;
   width: 550px;
@@ -843,13 +843,13 @@ a {
   width: 600px;
   border: 1px solid black;
   border-radius: 2px;
-  left: 6%;
+  left: 2%;
   /* font-size: 12px; */
 }
 
 #wordcloud {
   position: absolute;
-  right: 6%;
+  right: 2%;
   height: 380px;
   top: 1140px;
   width: 550px;
@@ -861,7 +861,7 @@ a {
 
 #productId {
   position: absolute;
-  left: 6%;
+  left: 2%;
   top: 1140px;
 }
 
