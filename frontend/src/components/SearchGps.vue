@@ -161,6 +161,7 @@ export default {
   name: "SearchGps",
   data() {
     return {
+      color_info: [],
       circle: false,
       pause_info: [],
       record_log: false,
@@ -197,6 +198,9 @@ export default {
           .then(response => (this.time_info = response.data));
     axios.get("http://52.14.238.110:5000/init_text")
           .then(response => (this.guide_text = response.data));
+    axios.get("http://52.14.238.110:5000/init_color")
+          .then(response => (this.color_info = response.data));
+    // console.log(this.color_info);
   },
 
   methods: {
@@ -756,9 +760,9 @@ a {
 #namebar {
   top: 240px;
   position: absolute;
-  left: 6%;
+  left: 4%;
   height: 480px;
-  width: 12%;
+  width: 10%;
   overflow: auto;
   border: 1px solid black;
   border-radius: 2px;
@@ -767,9 +771,9 @@ a {
 #trackbar {
   top: 240px;
   position: absolute;
-  right: 6%;
+  right: 4%;
   height: 480px;
-  width: 12%;
+  width: 10%;
   overflow: auto;
   border: 1px solid black;
   border-radius: 2px;
@@ -784,7 +788,7 @@ a {
 
 
 #map {
-  background-size: 960px 512px;
+  background-size: 975px 510px;
   background-repeat: no-repeat;
   opacity: 0.7;
   width: 960px;
@@ -824,7 +828,7 @@ a {
 
 #card {
   position: absolute;
-  right: 12%;
+  right: 6%;
   height: 320px;
   top: 780px;
   width: 550px;
@@ -841,13 +845,13 @@ a {
   width: 600px;
   border: 1px solid black;
   border-radius: 2px;
-  left: 12%;
+  left: 6%;
   /* font-size: 12px; */
 }
 
 #wordcloud {
   position: absolute;
-  right: 12%;
+  right: 6%;
   height: 380px;
   top: 1140px;
   width: 550px;
@@ -859,7 +863,7 @@ a {
 
 #productId {
   position: absolute;
-  left: 12%;
+  left: 6%;
   top: 1140px;
 }
 
