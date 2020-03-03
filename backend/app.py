@@ -71,7 +71,8 @@ def init_person():
 def init_color():
     color_info_list = []
     for i in range(35):
-        color_info_list.append('#%06X' % randint(0, 0xFFFFFF))
+        color_info = {"color": '#%06X' % randint(0, 0xFFFFFF)}
+        color_info_list.append(color_info)
     return jsonify(color_info_list)
 
 
