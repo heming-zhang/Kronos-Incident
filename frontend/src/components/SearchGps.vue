@@ -760,7 +760,7 @@ a {
   position: absolute;
   left: 1%;
   height: 432px;
-  width: 12%;
+  width: 13%;
   overflow: auto;
   border: 1px solid black;
   border-radius: 2px;
@@ -771,7 +771,7 @@ a {
   position: absolute;
   right: 1%;
   height: 432px;
-  width: 12%;
+  width: 13%;
   overflow: auto;
   border: 1px solid black;
   border-radius: 2px;
