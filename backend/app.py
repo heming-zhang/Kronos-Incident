@@ -1,3 +1,5 @@
+import numpy as np
+from random import randint
 from flask import Flask, url_for, redirect, render_template
 from flask import request
 from flask import jsonify
@@ -9,8 +11,6 @@ from sqlalchemy import create_engine
 
 from dateutil.parser import parse
 from datetime import datetime
-from random import randint
-import numpy as np
 
 # website backend bulid up
 app = Flask(__name__)
@@ -62,18 +62,14 @@ def init_person():
     for result in result_list:
         personal_info = {"carid": result.carid,
                     "firstname" : result.firstname,
-                    "lastname" : result.lastname}
+                    "lastname" : result.lastname,
+                    "color": '#%06X' % randint(0, 0xFFFFFF)}
         personal_info_list.append(personal_info)
     return jsonify(personal_info_list)
 
 
-@app.route('/init_color', methods=['GET'])
+@app.route('/init_color', method=['GET'])
 def init_color():
-    color_info_list = []
-    for i in range(35):
-        color_info = {"color": '#%06X' % randint(0, 0xFFFFFF)}
-        color_info_list.append(color_info)
-    return jsonify(color_info_list)
 
 
 @app.route('/init_time', methods=['GET'])

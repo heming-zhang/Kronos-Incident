@@ -80,15 +80,13 @@
         <rect width="12" height="12" style="fill: brown" />
       </svg>
       <br>
-      <div v-for="(pinfo, index) in personal_info" :key="index">
-        <span v-for="(colorinfo, index) in color_info" :key="index">
+      <div v-for="(pinfo, index) in personal_info" :key="index" >
         <input class = "namebox" type="radio" name = "employee" v-model="name" v-bind:value="pinfo.firstname+' '+pinfo.lastname">
         <label >{{pinfo.firstname}} {{pinfo.lastname}}</label>
-          <svg width="12" height="12"> 
-            <rect width="12" height="12" v-bind:style="{fill: color_info.color}" />
-          </svg>
+          <!-- <svg width="12" height="12"> 
+            <rect width="12" height="12" v-bind:style="{fill: cinfo.color}" />
+          </svg> -->
         <br>
-        </span>
       </div>
     </div>
     <div>
@@ -202,7 +200,6 @@ export default {
           .then(response => (this.guide_text = response.data));
     axios.get("http://52.14.238.110:5000/init_color")
           .then(response => (this.color_info = response.data));
-    console.log(this.color_info);
   },
 
   methods: {
