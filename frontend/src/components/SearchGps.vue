@@ -83,9 +83,9 @@
       <div v-for="(pinfo, index) in personal_info" :key="index" >
         <input class = "namebox" type="radio" name = "employee" v-model="name" v-bind:value="pinfo.firstname+' '+pinfo.lastname">
         <label >{{pinfo.firstname}} {{pinfo.lastname}}</label>
-          <!-- <svg width="12" height="12"> 
-            <rect width="12" height="12" v-bind:style="{fill: cinfo.color}" />
-          </svg> -->
+          <svg width="12" height="12"> 
+            <rect width="12" height="12" v-bind:style="{fill: pinfo.color}" />
+          </svg>
         <br>
       </div>
     </div>
@@ -161,7 +161,6 @@ export default {
   name: "SearchGps",
   data() {
     return {
-      color_info: [],
       circle: false,
       pause_info: [],
       record_log: false,
