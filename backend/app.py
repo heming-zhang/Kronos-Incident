@@ -68,10 +68,6 @@ def init_person():
     return jsonify(personal_info_list)
 
 
-@app.route('/init_color', method=['GET'])
-def init_color():
-
-
 @app.route('/init_time', methods=['GET'])
 def init_time():
     date = []
