@@ -588,8 +588,8 @@ export default {
         delete_svg.remove();
       }
       //Create SVG element
-      let w = 960;
-      let h = 480;
+      let w = 864;
+      let h = 432;
       let svg = d3.select("#point")
                   .append("svg")
                   .attr("width", w)
@@ -759,8 +759,8 @@ a {
   top: 240px;
   position: absolute;
   left: 1%;
-  height: 480px;
-  width: 10%;
+  height: 432px;
+  width: 12%;
   overflow: auto;
   border: 1px solid black;
   border-radius: 2px;
@@ -770,8 +770,8 @@ a {
   top: 240px;
   position: absolute;
   right: 1%;
-  height: 480px;
-  width: 10%;
+  height: 432px;
+  width: 12%;
   overflow: auto;
   border: 1px solid black;
   border-radius: 2px;
@@ -786,11 +786,11 @@ a {
 
 
 #map {
-  background-size: 975px 510px;
+  background-size: 877px 459px;
   background-repeat: no-repeat;
   opacity: 0.7;
-  width: 960px;
-  height: 560px;
+  width: 864px;
+  height: 504px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -801,8 +801,8 @@ a {
 }
 
 #point {
-  width: 960px;
-  height: 480px;
+  width: 864px;
+  height: 432px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -813,8 +813,8 @@ a {
 }
 
 #personalpoint {
-  width: 960px;
-  height: 480px;
+  width: 864px;
+  height: 432px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -828,7 +828,7 @@ a {
   position: absolute;
   right: 2%;
   height: 320px;
-  top: 780px;
+  top: 730px;
   width: 550px;
   overflow: auto;
   border: 1px solid black;
@@ -839,7 +839,7 @@ a {
 #histogram {
   position: absolute;
   height: 320px;
-  top: 780px;
+  top: 730px;
   width: 600px;
   border: 1px solid black;
   border-radius: 2px;
@@ -851,7 +851,7 @@ a {
   position: absolute;
   right: 2%;
   height: 380px;
-  top: 1140px;
+  top: 1090px;
   width: 550px;
   overflow: auto;
   border: 1px solid black;
@@ -862,7 +862,7 @@ a {
 #productId {
   position: absolute;
   left: 2%;
-  top: 1140px;
+  top: 1090px;
 }
 
 #bottom {
