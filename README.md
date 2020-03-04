@@ -1,10 +1,7 @@
 # Kronos Incident
-* Group Member: Heming Yuchen Qianyi
 * Alnalytic Tools: Flask; Vue; d3.js; 
 * Click [**here**](https://github.com/heming-zhang/Kronos-Incident) to GitHub Link
-* About **100** hours on development and deployment of this project
-* Our Kronos-Incident Visualized Systems [Website Link](http://52.14.238.110/kronos/)
-* Click [**here**](https://www.youtube.com/watch?v=NISH4pXTsuw&feature=youtu.be) to check the demo video.
+* Kronos-Incident Visualized Systems [Website Link](http://52.14.238.110/Kronos/)
 
 ## 1. Environment Setting(local machine / Remote Server)
 * Local Machine: macOS Catalina 10.15.3
