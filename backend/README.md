@@ -36,6 +36,11 @@ $ flask run --host=0.0.0.0
 $ python3 app.py
 ```
 
+```
+# ad hoc run server for long time
+$ nohup python3 app.py
+```
+
 ### 1.5 Connection with MySQL through flask_sqlalchemy
 ```
 sudo pip3 install flask_sqlalchemy
